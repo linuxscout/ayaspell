@@ -1,0 +1,31 @@
+    * How to install it in Gnu/Linux
+    * How to install it in Windows(Tm)
+    * How to install it in Mac-OS(Tm) 
+
+A - How to install it in Gnu/Linux
+ ----------------------------------------------------------
+For OpenOffice.org, under Gnu/Linux:
+
+ 1: Install any spellchecker for any language for OOo;
+ 2: Close Openoffice.org's quickstarter if it is activate;
+ 3: Copy the two files ar.dic & ar.aff to /usr/share/myspell/dicts/
+         cp ar.dic /usr/share/myspell/dicts/
+         cp ar.aff /usr/share/myspell/dicts/
+- 4: Edit etc/openoffice/dictionary.lst to add:
+           DICT ar TN ar
+-5: From Tools -> options -> parameters linguistic: linguistic, Edit openoffice.org hunspell spellchecker and choose the languge arabic (tunis) [it must have the "ABC" flag]. 
+ 
+B - How to install it in Window(Tm)
+ ----------------------------------------------------------
+For OpenOffice.org, under Window(Tm):
+
+ 1: Install any spellchecker for any language for OOo;
+ 2: Close Openoffice.org's quickstarter if it is activate;
+ 3: Copy the two files ar.dic & ar.aff to \Program Files\OpenOffice.org 2.1\share\dict\ooo
+ 4: Edit \Program Files\OpenOffice.org 2.1\share\dict\ooodictionary.lst to add:
+           DICT ar TN ar
+-5: From Tools -> options -> parameters linguistic: linguistic, Edit openoffice.org hunspell spellchecker and choose the languge arabic (tunis) [it must have the "ABC" flag]. 
+ 
+C - How to install it in Mac Os(Tm)
+ ----------------------------------------------------------
+I have not MacOs to test it. If you have any information how to do email me. Thanks.

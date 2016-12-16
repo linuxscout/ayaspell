@@ -1,0 +1,30 @@
+    * Installation sous Gnu/Linux
+    * Installation sous Windows(Tm)
+    * Installation sous Mac-OS(Tm) 
+
+A- Installation sous système Gnu/Linux
+------------------------------------------------------------ 
+1. Installer n'importe quel paquet de correction orthographique pour n'importe quelle langue dans OpenOffice.org (le Français par exemple puis tester-le); 
+2. Désactiver le lancement rapide d'OpenOffice.org (quickstarter) s'il est activé; 
+3. Copier les deux fichiers ar.dic & ar.aff dans /usr/share/myspell/dicts/ 
+        cp ar.dic /usr/share/myspell/dicts/ 
+        cp ar.aff /usr/share/myspell/dicts/ 
+4. Éditer le fichier etc/openoffice/dictionary.lst pour y ajouter: 
+          DICT ar TN ar 
+5. Depuis Outils -> options -> paramètres linguistiques: linguistique, Éditer... cocher la case d'orthographe "openoffice.org hunspell spellchecker" puis choisir pour langue: arabe (Tunisie) [qui doit montrer le drapeau "ABC"]. 
+6. Relancer OpenOffice.org, puis saisissez votre texte en arabe. Les mots erronés seront soulignés en rouge. Faire un clic droit dessus pour voir les suggestions de correction.
+
+B- Installation sous système Windows
+--------------------------------------------------------------
+ 1: Installer n'importe quel correcteur pour n'importe quelle langue dans OpenOffice.org (Anglais par exemple puis tester-le); 
+ 2: Désactiver le lancement rapide d'OpenOffice.org (quickstarter) s'il est activé; 
+ 3:Copier les deux fichiers ar.dic & ar.aff dans \Program Files\OpenOffice.org 2.*\share\dict\ooo (*: véfifier la validité du chemin indiqué en fonction de la version d'OpenOffice.org) 
+ 4: Editer le fichier \Program Files\OpenOffice.org 2.*\share\dict\ooodictionary.lst (*: véfifier la validité du chemin indiqué en fonction de la version d'OpenOffice.org) pour y ajouter: 
+           DICT ar TN ar 
+-5:  Depuis Outils -> options -> paramètres linguistiques: linguistique, Éditer... cocher la case d'orthographe "openoffice.org hunspell spellchecker" puis choisir pour langue: arabe (Tunisie) [qui doit montrer le drapeau "ABC"]. 
+ 6: Relancer OpenOffice.org, puis saisissez votre texte en arabe. Les mots erronés seront soulignés en rouge. Faire un clic droit dessus pour voir les suggestions de correction.
+
+C - Installtion sous Mac Os(Tm)
+ ----------------------------------------------------------
+Je n'ai pas ce système sous la main pour tester le dictionnaire. Si vous avez des informations à ce sujet, me contacter. Merci.
+

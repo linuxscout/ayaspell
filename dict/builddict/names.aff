@@ -1,0 +1,1725 @@
+SET	UTF-8
+TRY	ًٍذضصثقفغعهخحجدطكمنتالبيسشظزوةىرؤءئأإآ
+FLAG	long
+
+IGNORE ٌٍَُِّْـ
+
+MAP 13
+MAP ضص
+MAP طظ
+MAP ضظ
+MAP فق
+MAP غع
+MAP إغ
+MAP خحج
+MAP اأإ
+MAP أءؤئ
+MAP ةه
+MAP يى
+MAP ثت
+MAP زر
+
+
+REP	12
+REP	لا	لأ
+REP	لأ	لا
+REP	لا	لإ
+REP	لإ	لا
+REP	لا	لآ
+REP	لإ	لا
+REP	لا	لإ
+REP	ﻻ	لا
+REP	ﻵ	لآ
+REP	ﻷ	لأ
+REP	ﻹ	لإ
+REP	ﻹ	لا
+
+
+############### الاسماء Noms ###################
+	
+
+	
+# Prefixes noms  الزيادات السابقة للاسم	
+# Prefixes معرف بالإضافة/نكرة - مرفوع - كتابُ	
+	
+PFX	nr	Y	9	
+PFX	nr	0	أ	[^ا]
+PFX	nr	ا	أ	ا
+PFX	nr	0	و	.
+PFX	nr	0	ف	.
+PFX	nr	0	ل	.
+PFX	nr	0	أو 	.
+PFX	nr	0	أف	.
+PFX	nr	0	ول	.
+PFX	nr	0	فل	.
+	
+	
+# Prefixes معرف بالإضافة/نكرة - منصوب - كتابَ	
+	
+PFX	nn	Y	10	
+PFX	nn	0	أ	[^ا]
+PFX	nn	ا	أ	ا
+PFX	nn	0	و	.
+PFX	nn	0	ف	.
+PFX	nn	0	ل	.
+PFX	nn	0	و	.
+PFX	nn	0	أو	.
+PFX	nn	0	أف	.
+PFX	nn	0	ول	.
+PFX	nn	0	فل	.
+#PFX	nn	0	لو	.
+	
+	
+# Prefixes معرف بالإضافة/نكرة - مجرور - كتابِ	
+	
+PFX	nj	Y	27	
+PFX	nj	0	و	.
+PFX	nj	0	ف	.
+PFX	nj	0	و	.
+PFX	nj	0	ب	.
+PFX	nj	0	ل	.
+PFX	nj	0	ك	.
+PFX	nj	0	أب	.
+PFX	nj	0	أل	.
+PFX	nj	0	أك	.
+PFX	nj	0	وب	.
+PFX	nj	0	ول	.
+PFX	nj	0	وك	.
+PFX	nj	0	لب	.
+PFX	nj	0	لل	.
+PFX	nj	0	لك 	.
+PFX	nj	0	فب	.
+PFX	nj	0	فل	.
+PFX	nj	0	فك	.
+PFX	nj	0	ولب 	.
+PFX	nj	0	ولل	.
+PFX	nj	0	ولك	.
+PFX	nj	0	أوب	.
+PFX	nj	0	أول	.
+PFX	nj	0	أوك	.
+PFX	nj	0	أفب	.
+PFX	nj	0	أفل	.
+PFX	nj	0	أفك	.
+	
+
+
+# Prefixes سوابق الأعلام المضافة في المرحلة الثانية للالكسو	
+# غير المعرف ب ال
+PFX	np	Y	11	
+PFX	np	0	و	.
+PFX	np	0	ف	.
+PFX	np	0	ب	.
+PFX	np	0	ل	.
+PFX	np	0	فل	.
+PFX	np	0	ول	.
+PFX	np	0	ك	.
+PFX	np	0	وب	.
+PFX	np	0	فب	.
+PFX	np	0	وك	.
+PFX	np	0	فك	.
+
+# Prefixes سوابق الأعلام المضافة في المرحلة الثانية للالكسو
+#المعرف ب ال	
+	
+PFX	mp	Y	14	
+PFX	mp	0	و	.
+PFX	mp	0	ف	.
+PFX	mp	0	ب	.
+PFX	mp	الل	لل	الل
+PFX	mp	الل	فلل	الل
+PFX	mp	الل	ولل	الل
+PFX	mp	ال	لل	ال
+PFX	mp	ال	فل	ال
+PFX	mp	ال	ول	ال
+PFX	mp	0	ك	.
+PFX	mp	0	وب	.
+PFX	mp	0	فب	.
+PFX	mp	0	وك	.
+PFX	mp	0	فك	.
+# Prefixes معرف بال - مرفوع - الكتابُ	
+	
+PFX	mr	Y	12	
+PFX	mr	0	ال	.
+PFX	mr	0	آل	.
+PFX	mr	0	وال	.
+PFX	mr	0	فال	.
+PFX	mr	0	لل	[^ل]
+PFX	mr	ل	لل	ل
+PFX	mr	0	أوال	.
+PFX	mr	0	أفال	.
+PFX	mr	0	ولل	[^ل]
+PFX	mr	ل	ولل	ل
+PFX	mr	0	فلل	[^ل]
+PFX	mr	ل	فلل	ل
+	
+	
+# Prefixes معرف بال - منصوب - الكتابَ	
+	
+PFX	mn	Y	13	
+PFX	mn	0	ال	.
+PFX	mn	0	آل	.
+PFX	mn	0	وال	.
+PFX	mn	0	فال	.
+PFX	mn	0	لل	[^ل]
+PFX	mn	ل	لل	ل
+PFX	mn	0	وال	.
+PFX	mn	0	ولل	[^ل]
+PFX	mn	ل	ولل	ل
+PFX	mn	0	أوال	.
+PFX	mn	0	أفال	.
+PFX	mn	0	فلل	[^ل]
+PFX	mn	ل	فلل	ل
+#PFX	mn	0	لوال	.
+	
+	
+# Prefixes معرف بال - مجرور - الكتابِ	
+	
+PFX	mj	Y	36	
+PFX	mj	0	ال	.
+PFX	mj	0	وال	.
+PFX	mj	0	فال	.
+PFX	mj	0	وال	.
+PFX	mj	0	بال	.
+PFX	mj	0	لل	[^ل]
+PFX	mj	ل	لل	ل
+PFX	mj	0	كال	.
+PFX	mj	0	أبال	.
+PFX	mj	0	ألل	[^ل]
+PFX	mj	ل	ألل	ل
+PFX	mj	0	أكال	.
+PFX	mj	0	وبال	.
+PFX	mj	0	ولل	[^ل]
+PFX	mj	ل	ولل	ل
+PFX	mj	0	وكال	.
+PFX	mj	0	فبال	.
+PFX	mj	0	فلل	[^ل]
+PFX	mj	ل	فلل	ل
+PFX	mj	0	فكال	.
+PFX	mj	0	لبال	.
+PFX	mj	0	للل	[^ل]
+PFX	mj	ل	للل	ل
+PFX	mj	0	لكال	.
+PFX	mj	0	ولبال	.
+PFX	mj	0	وللل	[^ل]
+PFX	mj	ل	وللل	ل
+PFX	mj	0	ولكال	.
+PFX	mj	0	أوبال	.
+PFX	mj	0	أولل	[^ل]
+PFX	mj	ل	أولل	ل
+PFX	mj	0	أوكال	.
+PFX	mj	0	أفبال	.
+PFX	mj	0	أفلل	[^ل]
+PFX	mj	ل	أفلل	ل
+PFX	mj	0	أفكال	.
+	
+	
+# Sufixes noms الزيادات اللاحقة للاسم	
+	
+	
+	
+# Mots مفرد + جمع تكسير معرف	
+# Cas SnN (الكل) - المبدأ-المبدإ 	
+	
+SFX	AA	Y	2	
+SFX	AA	0	0/mrmnmj	.
+SFX	AA	أ	إ/mj	أ
+	
+	
+# Mots مفرد + جمع تكسير نكرة/إضافة منفصلة	
+# Cas SnN  (الكل) - المبدأ-المبدإ 	
+	
+SFX	AB	Y	2	
+SFX	AB	0	0/nrnnnj	.
+SFX	AB	أ	إ/nj	أ
+	
+	
+# Mots مفرد + جمع تكسير نكرة/إضافة ضمير عاقل	
+# Cas SnN  قلم-جلسة-وحمى-جزء-خطأ-مَبَادِئُ-تكافُؤ -نداء-نشوء-مجيء	
+	
+SFX	AC	Y	24	
+SFX	AC	0	ه/nrnnnjaa	[^ةىءأؤئ]
+SFX	AC	ة	ته/nrnnnjaa	ة
+SFX	AC	ى	اه/nrnnnjaa	ى
+SFX	AC	ء	ؤه/nraa	[^اوي]ء
+SFX	AC	ء	أه/nnaa	[^اوي]ء
+SFX	AC	ء	ئه/njaa	[^اوي]ء
+SFX	AC	أ	ؤه/nraa	أ
+SFX	AC	أ	أه/nnaa	أ
+SFX	AC	أ	ئه/njaa	أ
+SFX	AC	ئ	ئه/nraa	ئ
+SFX	AC	ئ	ئه/nnaa	ئ
+SFX	AC	ئ	ئه/njaa	ئ
+SFX	AC	ؤ	ؤه/nraa	ؤ
+SFX	AC	ؤ	ؤه/nnaa	ؤ
+SFX	AC	ؤ	ئه/njaa	ؤ
+SFX	AC	اء	اؤه/nraa	اء
+SFX	AC	اء	اءه/nnaa	اء
+SFX	AC	اء	ائه/njaa	اء
+SFX	AC	وء	وؤه/nraa	وء
+SFX	AC	وء	وءه/nnaa	وء
+SFX	AC	وء	وئه/njaa	وء
+SFX	AC	يء	يئه/nraa	يء
+SFX	AC	يء	يئه/nnaa	يء
+SFX	AC	يء	يئه/njaa	يء
+	
+	
+# Mots مفرد + جمع تكسير نكرة/إضافة ضمير غير عاقل	
+# Cas SnN  قلم-جلسة-وحمى-جزء-خطأ-مَبَادِئُ-تكافُؤ -نداء-نشوء-مجيء	
+	
+SFX	AD	Y	24	
+SFX	AD	0	ه/nrnnnjbb	[^ةىءأؤئ]
+SFX	AD	ة	ته/nrnnnjbb	ة
+SFX	AD	ى	اه/nrnnnjbb	ى
+SFX	AD	ء	ؤه/nrbb	[^اوي]ء
+SFX	AD	ء	أه/nnbb	[^اوي]ء
+SFX	AD	ء	ئه/njbb	[^اوي]ء
+SFX	AD	أ	ؤه/nrbb	أ
+SFX	AD	أ	أه/nnbb	أ
+SFX	AD	أ	ئه/njbb	أ
+SFX	AD	ئ	ئه/nrbb	ئ
+SFX	AD	ئ	ئه/nnbb	ئ
+SFX	AD	ئ	ئه/njbb	ئ
+SFX	AD	ؤ	ؤه/nrbb	ؤ
+SFX	AD	ؤ	ؤه/nnbb	ؤ
+SFX	AD	ؤ	ئه/njbb	ؤ
+SFX	AD	اء	اؤه/nrbb	اء
+SFX	AD	اء	اءه/nnbb	اء
+SFX	AD	اء	ائه/njbb	اء
+SFX	AD	وء	وؤه/nrbb	وء
+SFX	AD	وء	وءه/nnbb	وء
+SFX	AD	وء	وئه/njbb	وء
+SFX	AD	يء	يئه/nrbb	يء
+SFX	AD	يء	يئه/nnbb	يء
+SFX	AD	يء	يئه/njbb	يء
+	
+# Mots مفرد يقبل التاء ((المعلم/المعلمة)  معرف	
+# Cas SnT  المعلم-المعلم~ة	
+	
+SFX	BA	Y	2	
+SFX	BA	0	0/mrmnmj	.
+SFX	BA	0	ة/mrmnmj	.
+	
+# Mots مفرد يقبل التاء (معلم/معلمة)  نكرة/إضافة منفصلة	
+# Cas SnT  معلم-معلم~ة	
+	
+SFX	BB	Y	3	
+SFX	BB	0	0/nrnnnj	.
+SFX	BB	0	ة/nrnnnj	.
+SFX	BB	0	ةً/nn	.
+	
+# Mots مفرد يقبل التاء (معلم/معلمة)  نكرة/إضافة ضمير عاقل	
+# Cas SnT  معلمهم-معلم~تهم	
+	
+SFX	BC	Y	2	
+SFX	BC	0	0/nrnnnjcc	.
+SFX	BC	0	ته/nrnnnjaa	.
+	
+# Mots مفرد يقبل التاء (معلم/معلمة)  نكرة/إضافة  ضمير غير عاقل	
+# Cas SnT معلمه-معلم~ته 	
+	
+SFX	BD	Y	2	
+SFX	BD	0	0/nrnnnjdd	.
+SFX	BD	0	ته/nrnnnjbb	.
+	
+# Mots مثنى عادي معرف	
+# Cas DnN  القلم/القلمان-القلمين، الحلسة/الجلستان-الجلستين	
+	
+SFX	CA	Y	4	
+SFX	CA	0	ان/mr	[^ة]
+SFX	CA	0	ين/mnmj	[^ة]
+SFX	CA	ة	تان/mr	ة
+SFX	CA	ة	تين/mnmj	ة
+	
+	
+# Mots مثنى عادي نكرة/إضافة منفصلة	
+# Cas DnN قلم/قلمان-قلمين، جلسة/جلستان-جلستين	
+	
+SFX	CB	Y	8	
+SFX	CB	0	ان/nr	[^ة]
+SFX	CB	0	ا/nr	[^ة]
+SFX	CB	0	ين/nnnj	[^ة]
+SFX	CB	0	ي/nnnj	[^ة]
+SFX	CB	ة	تان/nr	ة
+SFX	CB	ة	تا/nr	ة
+SFX	CB	ة	تين/nnnj	ة
+SFX	CB	ة	تي/nnnj	ة
+	
+# Mots مثنى عادي نكرة/إضافة ضمير عاقل	
+# Cas DnN  قلم/قلما-قلماهم-قلمي-قلميهم، جلسة/جلستا-جلستاهم-جلستي-جلستيهم	
+	
+SFX	CC	Y	4	
+SFX	CC	0	ا/nrcc	[^ة]
+SFX	CC	0	ي/nnnjcc	[^ة]
+SFX	CC	ة	تا/nrcc	ة
+SFX	CC	ة	تي/nnnjcc	ة
+	
+# Mots مثنى عادي نكرة/إضافة ضمير غير عاقل	
+# Cas DnN  قلم/قلما-قلماه-قلمي-قلميه، جلسة/جلستا-جلستاه-جلستي-جلستيه	
+	
+SFX	CD	Y	4	
+SFX	CD	0	ا/nrdd	[^ة]
+SFX	CD	0	ي/nnnjdd	[^ة]
+SFX	CD	ة	تا/nrdd	ة
+SFX	CD	ة	تي/nnnjdd	ة
+	
+#  الإضافة اللفضية للمثنى العادي (صفة)	
+# Mots الإضافة اللفضية لمثنى عادي (صفة)	
+# Cas DnN  دون اعتبار لإضافة ضمير متصل (حالة اسم الفاعل مرحليًأ)	
+	
+SFX	CE	Y	4	
+SFX	CE	0	ا/mr	[^ة]
+SFX	CE	0	ي/mnmj	[^ة]
+SFX	CE	ة	تا/mr	ة
+SFX	CE	ة	تي/mnmj	ة
+	
+	
+	
+	
+	
+# Mots مثنى عادي  مفرده يقبل التاء  (المعلمان/المعلمتان) معرف	
+# Cas DnT  المعلم/المعلمان-المعلمين، المعلم/المعلم~تان-المعلم~تين	
+	
+SFX	DA	Y	4	
+SFX	DA	0	ان/mr	.
+SFX	DA	0	ين/mnmj	.
+SFX	DA	0	تان/mr	.
+SFX	DA	0	تين/mnmj	.
+	
+# Mots مثنى عادي مفرده يقبل التاء   (معلمان/معلمتان)  نكرة/إضافة منفصلة	
+# Cas DnT  معلم/معلمان-معلمين، معلم/معلمتان-معلمتين	
+	
+SFX	DB	Y	8	
+SFX	DB	0	ان/nr	.
+SFX	DB	0	ا/nr	.
+SFX	DB	0	ين/nnnj	.
+SFX	DB	0	ي/nnnj	.
+SFX	DB	0	تان/nr	.
+SFX	DB	0	تا/nr	.
+SFX	DB	0	تين/nnnj	.
+SFX	DB	0	تي/nnnj	.
+	
+# Mots مثنى عادي مفرده يقبل التاء   (معلمان/معلمتان) نكرة/إضافة ضمير عاقل	
+# Cas DnT  معلم/معلما-معلماهم-معلمي-معلميهم، معلم/معلمتا-معلمتاهم-معلمتي-معلمتيهم	
+	
+SFX	DC	Y	4	
+SFX	DC	0	ا/nrcc	.
+SFX	DC	0	ي/nnnjcc	.
+SFX	DC	0	تا/nrcc	.
+SFX	DC	0	تي/nnnjcc	.
+	
+# Mots مثنى عادي مفرده يقبل التاء   (معلمان/معلمتان) نكرة/إضافة	
+# Cas DnT  معلم/معلما-معلماه-معلمي-معلميه، معلم/معلمتا-معلمتاه-معلمتي-معلمتيه	
+	
+SFX	DD	Y	4	
+SFX	DD	0	ا/nrdd	.
+SFX	DD	0	ي/nnnjdd	.
+SFX	DD	0	تا/nrdd	.
+SFX	DD	0	تي/nnnjdd	.
+	
+# Cas DnT  الإضافة اللفضية البسيطة لمثنى عادي، يقبل مفرده التاء (صفة)	
+# Mots االإضافة اللفضية لمثنى عادي، يقبل مفرده التاء (صفة)	
+# Cas DnT	
+	
+SFX	DE	Y	4	
+SFX	DE	0	ا/mr	.
+SFX	DE	0	ي/mnmj	.
+SFX	DE	0	تا/mr	.
+SFX	DE	0	تي/mnmj	.
+	
+	
+# Mots مثنى المقصور اليائي  - معرف	
+# Cas Dy  الفتى/الفتيان-الفتيين- المستشفى/المستشفيان	
+	
+SFX	EA	Y	4	
+SFX	EA	ى	يان/mr	ى
+SFX	EA	ى	يين/mnmj	ى
+SFX	EA	ا	يان/mr	ا
+SFX	EA	ا	يين/mnmj	ا
+	
+# Mots مثنى المقصور اليائي - نكرة/إضافة منفصلة	
+# Cas Dy فتى/فتيان-فتيين- مستشفى/مستشفيان	
+	
+SFX	EB	Y	8	
+SFX	EB	ى	يان/nr	ى
+SFX	EB	ى	يا/nr	ى
+SFX	EB	ى	يين/nnnj	ى
+SFX	EB	ى	يي/nnnj	ى
+SFX	EB	ا	يان/nr	ا
+SFX	EB	ا	يا/nr	ا
+SFX	EB	ا	يين/nnnj	ا
+SFX	EB	ا	يي/nnnj	ا
+	
+# Mots مثنى المقصور اليائي - نكرة/إضافة ضمير عاقل	
+# Cas Dy  فتى/فتيا-فتياهم-فتيي-فتييهم	
+	
+SFX	EC	Y	4	
+SFX	EC	ى	يا/nrcc	ى
+SFX	EC	ى	يي/nnnjcc	ى
+SFX	EC	ا	يا/nrcc	ا
+SFX	EC	ا	يي/nnnjcc	ا
+	
+# Mots مثنى المقصور اليائي - نكرة/إضافة ضمير  غير عاقل	
+# Cas Dy  فتى/فتيا-فتياه-فتيي-فتييه	
+	
+SFX	ED	Y	4	
+SFX	ED	ى	يا/nrdd	ى
+SFX	ED	ى	يي/nnnjdd	ى
+SFX	ED	ا	يا/nrdd	ا
+SFX	ED	ا	يي/nnnjdd	ا
+	
+	
+#  الإضافة اللفضية لمثنى المقصور اليائي (صفة)	
+# Cas Dy (possible??)	
+	
+# Mots االإضافة اللفضية لمثنى المقصور اليائي (صفة)~ضمير عاقل	
+	
+SFX	EE	Y	4	
+SFX	EE	ى	يا/mrcc	ى
+SFX	EE	ى	يي/mnmjcc	ى
+SFX	EE	ا	يا/mrcc	ا
+SFX	EE	ا	يي/mnmjcc	ا
+	
+	
+# Mots مثنى  المقصور الواوي والممدود بهمزة تأنيث او  همزة منقلبة من حرف أصلي- معرف	
+# Cas Dw  العصا/العصوان 	
+# Cas Dw  الممسى/الممسوان-الممسوين، العصا/العصوان-العصوين، السمراء/السمراوان-السمراوين، السماء/السماوان-السوامين (ويجوز أيضًا السماءان-السماءين) 	
+	
+SFX	FA	Y	6	
+SFX	FA	ى	وان/mr	ى
+SFX	FA	ى	وين/mnmj	ى
+SFX	FA	ا	وان/mr	ا
+SFX	FA	ا	وين/mnmj	ا
+SFX	FA	ء	وان/mr	اء
+SFX	FA	ء	وين/mnmj	اء
+	
+# Mots مثنى المقصور الواوي والممدود بهمزة تانيث او  همزة منقلبة من حرف أصلي- نكرة/إضافة منفصلة	
+# Cas Dw  ممسى/ممسوان-ممسوين، عصا/عصوان-عصوين، سمراء/سمراوان-سمراوين، سماء/سماوان-سوامين (ويجوز أيضًا سماءان-سماءين) 	
+SFX	FB	Y	12	
+SFX	FB	ى	وان/nr	ى
+SFX	FB	ى	وا/nr	ى
+SFX	FB	ى	وين/nnnj	ى
+SFX	FB	ى	وي/nnnj	ى
+SFX	FB	ا	وان/nr	ا
+SFX	FB	ا	وا/nr	ا
+SFX	FB	ا	وين/nnnj	ا
+SFX	FB	ا	وي/nnnj	ا
+SFX	FB	ء	وان/nr	اء
+SFX	FB	ء	وا/nr	اء
+SFX	FB	ء	وين/nnnj	اء
+SFX	FB	ء	وي/nnnj	اء
+	
+# Mots مثنى المقصور الواوي والممدود بهمزة تانيث او  همزة منقلبة من حرف أصلي- نكرة/إضافة ضمير عاقل	
+# Cas Dw   ممسى/ممساوا-ممساواهم-ممسوي-ممسويهم، عصا/عصوا-عصواهم-عصوي-عصويهم، سمراء/سمراوا-سمراواهم-سمراوي-سمراويهم، سماء/سماوا-سماواهم-سماوي-سماويهم (ويجوز أيضًا سماءان-سماءا-سماءاهم-سماءين-سماءي-سماءيهم)	
+	
+SFX	FC	Y	6	
+SFX	FC	ى	وا/nrcc	ى
+SFX	FC	ى	وي/nnnjcc	ى
+SFX	FC	ا	وا/nrcc	ى
+SFX	FC	ا	وي/nnnjcc	ى
+SFX	FC	ء	وا/nrcc	اء
+SFX	FC	ء	وي/nnnjcc	اء
+	
+# Mots مثنى المقصور الواوي والممدود بهمزة تانيث او  همزة منقلبة من حرف أصلي- نكرة/إضافة ضمير غير عاقل	
+# Cas Dw   ممسى/ممساوا-ممساواه-ممسوي-ممسويه، عصا/عصوا-عصواه-عصوي-عصويه، سمراء/سمراوا-سمراواه-سمراوي-سمراويه، سماء/سماوا-سماواه-سماوي-سماويه (ويجوز أيضًا سماءان-سماءا-سماءاه-سماءين-سماءي-سماءيه) 	
+	
+SFX	FD	Y	6	
+SFX	FD	ى	وا/nrdd	ى
+SFX	FD	ى	وي/nnnjdd	ى
+SFX	FD	ا	وا/nrdd	ى
+SFX	FD	ا	وي/nnnjdd	ى
+SFX	FD	ء	وا/nrdd	اء
+SFX	FD	ء	وي/nnnjdd	اء
+	
+#  الإضافة اللفضية لمثنى المقصور الواوي (صفة)	
+#  Cas Dw  (possible??) 	
+	
+# Mots االإضافة اللفضية لمثنى المقصور الواوي (صفة)~ضمير عاقل	
+	
+SFX	FE	Y	6	
+SFX	FE	ى	وا/mr	ى
+SFX	FE	ى	وي/mnmj	ى
+SFX	FE	ا	وا/mr	ى
+SFX	FE	ا	وي/mnmj	ى
+SFX	FE	ء	وا/mr	اء
+SFX	FE	ء	وي/mnmj	اء
+	
+	
+# Mots مثنى المهموز  والممدود بهمزة أصلية- معرف	
+# Cas Dz  الجزء/الجزءان-الجزأين، الدفء/الدفئان-الدفأين، النداء النداءان-النداءين، النشوء/النشوءان-النشوءين، المجيء/المجيئان-المجيئين، "الإمرئ"/ئان-ئين، التكافؤ/التكافؤان-التكافؤين، الخطأ/الخطآن-الخطأين   	
+	
+SFX	GA	Y	16	
+SFX	GA	ء	ءان/mr	[ذدرز]ء
+SFX	GA	ء	أين/mnmj	[ذدرز]ء
+SFX	GA	ء	ئان/mr	[^ذدرزاوي]ء
+SFX	GA	ء	أين/mnmj	[^ذدرزاوي]ء
+SFX	GA	ء	ءان/mr	اء
+SFX	GA	ء	ءين/mnmj	اء
+SFX	GA	ء	ءان/mr	وء
+SFX	GA	ء	ءين/mnmj	وء
+SFX	GA	ء	ئان/mr	يء
+SFX	GA	ء	ئين/mnmj	يء
+SFX	GA	ئ	ئان/mr	ئ
+SFX	GA	ئ	ئين/mnmj	ئ
+SFX	GA	ؤ	ؤان/mr	ؤ
+SFX	GA	ؤ	ؤين/mnmj	ؤ
+SFX	GA	أ	آن/mr	أ
+SFX	GA	أ	أين/mnmj	أ
+	
+	
+# Mots مثنى المهموز  والممدود بهمزة أصلية- نكرة/إضافة منفصلة	
+# Cas Dz  جزء/جزءان-جزأين، دفء/دفئان-دفأين، نداء نداءان-نداءين، نشوء/نشوءان-نشوءين، مجيء/مجيئان-مجيئين، "إمرئ"/ئان-ئين، تكافؤ/تكافؤان-تكافؤين، خطأ/خطآن-خطأين   	
+	
+SFX	GB	Y	32	
+SFX	GB	ء	ءان/nr	[ذدرز]ء
+SFX	GB	ء	ءا/nr	[ذدرز]ء
+SFX	GB	ء	أين/nnnj	[ذدرز]ء
+SFX	GB	ء	أي/nnnj	[ذدرز]ء
+SFX	GB	ء	ئان/nr	[^ذدرزاوي]ء
+SFX	GB	ء	ئا/nr	[^ذدرزاوي]ء
+SFX	GB	ء	أين/nnnj	[^ذدرزاوي]ء
+SFX	GB	ء	أي/nnnj	[^ذدرزاوي]ء
+SFX	GB	ء	ءان/nr	اء
+SFX	GB	ء	ءا/nr	اء
+SFX	GB	ء	ءين/nnnj	اء
+SFX	GB	ء	ءي/nnnj	اء
+SFX	GB	ء	ءان/nr	وء
+SFX	GB	ء	ءا/nr	وء
+SFX	GB	ء	ءين/nnnj	وء
+SFX	GB	ء	ءي/nnnj	وء
+SFX	GB	ء	ئان/nr	يء
+SFX	GB	ء	ئا/nr	يء
+SFX	GB	ء	ئين/nnnj	يء
+SFX	GB	ء	ئي/nnnj	يء
+SFX	GB	ئ	ئان/nr	ئ
+SFX	GB	ئ	ئا/nr	ئ
+SFX	GB	ئ	ئين/nnnj	ئ
+SFX	GB	ئ	ئي/nnnj	ئ
+SFX	GB	ؤ	ؤان/nr	ؤ
+SFX	GB	ؤ	ؤا/nr	ؤ
+SFX	GB	ؤ	ؤين/nnnj	ؤ
+SFX	GB	ؤ	ؤي/nnnj	ؤ
+SFX	GB	أ	آن/nr	أ
+SFX	GB	أ	آ/nr	أ
+SFX	GB	أ	أين/nnnj	أ
+SFX	GB	أ	أي/nnnj	أ
+	
+# Mots مثنى المهموز  والممدود بهمزة أصلية- نكرة/إضافة ضمير عاقل	
+# Cas Dz  جزء/جزءا-جزءاهم-جزأي-جزأيهم، دفء/دفئا-دفئاهم-دفأي-دفأيهم، همداء/همداءا-همداءاهم-همداءي-همداءيهم، نشوء/نشوءا-نشوءاهم-نشوءي-نشوءيهم، مجيء/مجيئا-مجيئاهم-مجيئي-مجيئيهم، "إمرئ"/ئا~هم-ئي~هم، تكافؤ/تكافؤا-تكافؤاهم-jكافؤي-تكافؤيهم، خطأ/خطآ-خطآهم-خطأي-خطأيهم   	
+	
+SFX	GC	Y	16	
+SFX	GC	ء	ءا/nrcc	[ذدرز]ء
+SFX	GC	ء	أي/nnnjcc	[ذدرز]ء
+SFX	GC	ء	ئا/nrcc	[^ذدرزاوي]ء
+SFX	GC	ء	أي/nnnjcc	[^ذدرزاوي]ء
+SFX	GC	ء	ءا/nrcc	اء
+SFX	GC	ء	ءي/nnnjcc	اء
+SFX	GC	ء	ءا/nrcc	وء
+SFX	GC	ء	ءي/nnnjcc	وء
+SFX	GC	ء	ئا/nrcc	يء
+SFX	GC	ء	ئي/nnnjcc	يء
+SFX	GC	ئ	ئا/nrcc	ئ
+SFX	GC	ئ	ئي/nnnjcc	ئ
+SFX	GC	ؤ	ؤا/nrcc	ؤ
+SFX	GC	ؤ	ؤي/nnnjcc	ؤ
+SFX	GC	أ	آ/nrcc	أ
+SFX	GC	أ	أي/nnnjcc	أ
+	
+# Mots مثنى المهموز  والممدود بهمزة أصلية- نكرة/إضافة ضمير غير عاقل	
+# Cas Dz  جزء/جزءا-جزءاه-جزأي-جزأيه، دفء/دفئا-دفئاه-دفأي-دفأيه، همداء/همداءا-همداءاه-همداءي-همداءيه، نشوء/نشوءا-نشوءاه-نشوءي-نشوءيه، مجيء/مجيئا-مجيئاه-مجيئي-مجيئيه، "إمرئ"/ئا~ه-ئي~ه، تكافؤ/تكافؤا-تكافؤاه-jكافؤي-تكافؤيه، خطأ/خطآ-خطآه-خطأي-خطأيه   	
+	
+SFX	GD	Y	16	
+SFX	GD	ء	ءا/nrdd	[ذدرز]ء
+SFX	GD	ء	أي/nnnjdd	[ذدرز]ء
+SFX	GD	ء	ئا/nrdd	[^ذدرزاوي]ء
+SFX	GD	ء	أي/nnnjdd	[^ذدرزاوي]ء
+SFX	GD	ء	ءا/nrdd	اء
+SFX	GD	ء	ءي/nnnjdd	اء
+SFX	GD	ء	ءا/nrdd	وء
+SFX	GD	ء	ءي/nnnjdd	وء
+SFX	GD	ء	ئا/nrdd	يء
+SFX	GD	ء	ئي/nnnjdd	يء
+SFX	GD	ئ	ئا/nrdd	ئ
+SFX	GD	ئ	ئي/nnnjdd	ئ
+SFX	GD	ؤ	ؤا/nrdd	ؤ
+SFX	GD	ؤ	ؤي/nnnjdd	ؤ
+SFX	GD	أ	آ/nrdd	أ
+SFX	GD	أ	أي/nnnjdd	أ
+	
+# Cas Dz  الإضافة اللفضية لمثنى المهموز  والممدود بهمزة أصلية (صفة)	
+# Cas Dz  دون اعتبار لإضافة ضمير متصل (حالة اسم الفاعل مرحليًأ)	
+	
+# Mots االإضافة اللفضية لمثنى المهموز والممدود بهمزة أصلية (صفة)	
+# Cas Dz 	
+	
+SFX	GE	Y	16	
+SFX	GE	ء	ءا/mr	[ذدرز]ء
+SFX	GE	ء	أي/mnmj	[ذدرز]ء
+SFX	GE	ء	ئا/mr	[^ذدرزاوي]ء
+SFX	GE	ء	أي/mnmj	[^ذدرزاوي]ء
+SFX	GE	ء	ءا/mr	اء
+SFX	GE	ء	ءي/mnmj	اء
+SFX	GE	ء	ءا/mr	وء
+SFX	GE	ء	ءي/mnmj	وء
+SFX	GE	ء	ئا/mr	يء
+SFX	GE	ء	ئي/mnmj	يء
+SFX	GE	ئ	ئا/mr	ئ
+SFX	GE	ئ	ئي/mnmj	ئ
+SFX	GE	ؤ	ؤا/mr	ؤ
+SFX	GE	ؤ	ؤي/mnmj	ؤ
+SFX	GE	أ	آ/mr	أ
+SFX	GE	أ	أي/mnmj	أ
+	
+	
+# Mots Pf  جمع مؤنث سالم  (ضمنه المقصور اليائي أما الواوي فيلحق بملف القاموس!) - معرف	
+# Cas Pf  الانتصار/الانتصارات، الجلسة/الجلسات، المباراة/المباريات، مفاجأة/المفاجآت، "الجزء"/"الجزءات"، النداء/النداءات (الممدود اليائي)، النشوء/النشوءات، المجيء/المجيئات، "الإمرئ"/"الإمرئات"، التكافُؤ/التكافؤات، "الخطأ"/"الخطآت"، الهدى/الهديات، الرضا/الرضيات	
+	
+SFX	HA	Y	13	
+SFX	HA	0	ات/mrmnmj	[^ةاىءأؤئ]
+SFX	HA	ة	ات/mrmnmj	[^أا]ة
+SFX	HA	اة	يات/mrmnmj	اة
+SFX	HA	أة	آت/mrmnmj	أة
+SFX	HA	ء	آت/mrmnmj	[^اوي]ء
+SFX	HA	ء	ءات/mrmnmj	اء
+SFX	HA	ء	ءات/mrmnmj	وء
+SFX	HA	ء	ئات/mrmnmj	يء
+SFX	HA	ئ	ئات/mrmnmj	ئ
+SFX	HA	ؤ	ؤات/mrmnmj	ؤ
+SFX	HA	أ	آت/mrmnmj	أ
+SFX	HA	ى	يات/mrmnmj	ى
+SFX	HA	ا	يات/mrmnmj	ا
+	
+# Mots Pf  جمع مؤنث سالم  (ضمنه المقصور اليائي) - نكرة	
+# Cas Pf  انتصار/انتصارات، جلسة/جلسات، مباراة/مباريات، مفاجأة/مفاجآت، "جزء"/"جزءات"، نداء/نداءات (ممدود يائي)، نشوء/نشوءات، مجيء/مجيئات، "إمرئ"/"إمرئات"، تكافُؤ/تكافؤات، "خطأ"/"خطآت"، هدى/هديات، رضا/رضيات	
+	
+SFX	HB	Y	13	
+SFX	HB	0	ات/nrnrnj	[^ةاىءأؤئ]
+SFX	HB	ة	ات/nrnrnj	[^أا]ة
+SFX	HB	اة	يات/nrnrnj	اة
+SFX	HB	أة	آت/nrnrnj	أة
+SFX	HB	ء	آت/nrnrnj	[^اوي]ء
+SFX	HB	ء	ءات/nrnrnj	اء
+SFX	HB	ء	ءات/nrnrnj	وء
+SFX	HB	ء	ئات/nrnrnj	يء
+SFX	HB	ئ	ئات/nrnrnj	ئ
+SFX	HB	ؤ	ؤات/nrnrnj	ؤ
+SFX	HB	أ	آت/nrnrnj	أ
+SFX	HB	ى	يات/nrnrnj	ى
+SFX	HB	ا	يات/nrnrnj	ا
+	
+# Mots Pf  جمع مؤنث سالم  (ضمنه المقصور اليائي) - نكرة/إضافة ضمير عاقل	
+# Cas Pf	
+	
+SFX	HC	Y	13	
+SFX	HC	0	ات/nrnrnjcc	[^ةاىءأؤئ]
+SFX	HC	ة	ات/nrnrnjcc	[^أا]ة
+SFX	HC	اة	يات/nrnrnjcc	اة
+SFX	HC	أة	آت/nrnrnjcc	أة
+SFX	HC	ء	آت/nrnrnjcc	[^اوي]ء
+SFX	HC	ء	ءات/nrnrnjcc	اء
+SFX	HC	ء	ءات/nrnrnjcc	وء
+SFX	HC	ء	ئات/nrnrnjcc	يء
+SFX	HC	ئ	ئات/nrnrnjcc	ئ
+SFX	HC	ؤ	ؤات/nrnrnjcc	ؤ
+SFX	HC	أ	آت/nrnrnjcc	أ
+SFX	HC	ى	يات/nrnrnjcc	ى
+SFX	HC	ا	يات/nrnrnjcc	ا
+	
+# Mots Pf  جمع مؤنث سالم  (ضمنه المقصور اليائي) - نكرة/إضافة ضمير غير عاقل	
+# Cas Pf	
+	
+SFX	HD	Y	13	
+SFX	HD	0	ات/nrnrnjdd	[^ةاىءأؤئ]
+SFX	HD	ة	ات/nrnrnjdd	[^أا]ة
+SFX	HD	اة	يات/nrnrnjdd	اة
+SFX	HD	أة	آت/nrnrnjdd	أة
+SFX	HD	ء	آت/nrnrnjdd	[^اوي]ء
+SFX	HD	ء	ءات/nrnrnjdd	اء
+SFX	HD	ء	ءات/nrnrnjdd	وء
+SFX	HD	ء	ئات/nrnrnjdd	يء
+SFX	HD	ئ	ئات/nrnrnjdd	ئ
+SFX	HD	ؤ	ؤات/nrnrnjdd	ؤ
+SFX	HD	أ	آت/nrnrnjdd	أ
+SFX	HD	ى	يات/nrnrnjdd	ى
+SFX	HD	ا	يات/nrnrnjdd	ا
+	
+# Mots  جمع مذكر سالم  - معرف	
+# Cas Pm  المعلم/المعلمون-ين-المبتغى/"المبتغون-ين"-الجزء/"الجزؤون-ئين"-الدفء/"الدفؤون-ئين"-النداء/"النداؤون-ئين" (الممدود)-النشوء/"النشوؤون-ئين"-المجيء/"المجيئون-ئين"-"الامرِئ"/"الإمرئون-ئين"-التكافُؤ/"التكافؤون-ئين"-الخطَأ/"الخطؤون-ئين"	
+# Cas Pm  القاضي/القاضون-القاضين	
+	
+SFX	IA	Y	22	
+SFX	IA	0	ون/mr	[^اىءأؤئي]
+SFX	IA	0	ين/mnmj	[^اىءأؤئي]
+SFX	IA	ى	ون/mr	ى
+SFX	IA	ى	ين/mnmj	ى
+SFX	IA	ي	ون/mr	ي
+SFX	IA	ي	ين/mnmj	ي
+SFX	IA	ء	ؤون/mr	[ذدرز]ء
+SFX	IA	ء	ئين/mnmj	[ذدرز]ء
+SFX	IA	ء	ؤون/mr	[^ذدرزاوي]ء
+SFX	IA	ء	ئين/mnmj	[^ذدرزاوي]ء
+SFX	IA	ء	ؤون/mr	اء
+SFX	IA	ء	ئين/mnmj	اء
+SFX	IA	ء	ؤون/mr	وء
+SFX	IA	ء	ئين/mnmj	وء
+SFX	IA	ء	ئون/mr	يء
+SFX	IA	ء	ئين/mnmj	يء
+SFX	IA	ئ	ئون/mr	ئ
+SFX	IA	ئ	ئين/mnmj	ئ
+SFX	IA	ؤ	ؤون/mr	ؤ
+SFX	IA	ؤ	ئين/mnmj	ؤ
+SFX	IA	أ	ؤون/mr	أ
+SFX	IA	أ	ئين/mnmj	أ
+	
+# Mots  جمع مذكر سالم  -  نكرة/إضافة منفصلة	
+# Cas Pm  معلم/معلمون-ين-مبتغى/"مبتغون-ين"-جزء/"جزؤون-ئين"-دفء/"دفؤون-ئين"-نداء/"نداؤون-ئين" (ممدود)-نشوء/"نشوؤون-ئين"-مجيء/"مجيئون-ئين"-"امرِئ"/"إمرئون-ئين"-تكافُؤ/"تكافؤون-ئين"-خطَأ/"خطؤون-ئين" 	
+# Cas Pm  قاضي/قاضون-قاضين	
+	
+SFX	IB	Y	44	
+SFX	IB	0	ون/nr	[^اىءأؤئي]
+SFX	IB	0	و/nr	[^اىءأؤئي]
+SFX	IB	0	ين/nnnj	[^اىءأؤئي]
+SFX	IB	0	ي/nnnj	[^اىءأؤئي]
+SFX	IB	ى	ون/nr	ى
+SFX	IB	ى	و/nr	ى
+SFX	IB	ى	ين/nnnj	ى
+SFX	IB	ى	ي/nnnj	ى
+SFX	IB	ي	ون/nr	ي
+SFX	IB	ي	و/nr	ي
+SFX	IB	ي	ين/nnnj	ي
+SFX	IB	ي	ي/nnnj	ي
+SFX	IB	ء	ؤون/nr	[ذدرز]ء
+SFX	IB	ء	ؤو/nr	[ذدرز]ء
+SFX	IB	ء	ئين/nnnj	[ذدرز]ء
+SFX	IB	ء	ئي/nnnj	[ذدرز]ء
+SFX	IB	ء	ؤون/nr	[^ذدرزاوي]ء
+SFX	IB	ء	ؤو/nr	[^ذدرزاوي]ء
+SFX	IB	ء	ئين/nnnj	[^ذدرزاوي]ء
+SFX	IB	ء	ئي/nnnj	[^ذدرزاوي]ء
+SFX	IB	ء	ؤون/nr	اء
+SFX	IB	ء	ؤو/nr	اء
+SFX	IB	ء	ئين/nnnj	اء
+SFX	IB	ء	ئي/nnnj	اء
+SFX	IB	ء	ؤون/nr	وء
+SFX	IB	ء	ؤو/nr	وء
+SFX	IB	ء	ئين/nnnj	وء
+SFX	IB	ء	ئي/nnnj	وء
+SFX	IB	ء	ئون/nr	يء
+SFX	IB	ء	ئو/nr	يء
+SFX	IB	ء	ئين/nnnj	يء
+SFX	IB	ء	ئي/nnnj	يء
+SFX	IB	ئ	ئون/nr	ئ
+SFX	IB	ئ	ئو/nr	ئ
+SFX	IB	ئ	ئين/nnnj	ئ
+SFX	IB	ئ	ئي/nnnj	ئ
+SFX	IB	ؤ	ؤون/nr	ؤ
+SFX	IB	ؤ	ؤو/nr	ؤ
+SFX	IB	ؤ	ئين/nnnj	ؤ
+SFX	IB	ؤ	ئي/nnnj	ؤ
+SFX	IB	أ	ؤون/nr	أ
+SFX	IB	أ	ؤو/nr	أ
+SFX	IB	أ	ئين/nnnj	أ
+SFX	IB	أ	ئي/nnnj	أ
+	
+# Mots  جمع مذكر سالم- نكرة/إضافة ضمير عاقل	
+# Cas Pm  معلم/معلموهم-يهم-مبتغى/"مبتغوهم-يهم"-جزء/"جزؤوهم-ئيهم"-دفء/"دفؤوهم-ئيهم"-نداء/"نداؤوهم-ئيهم" (ممدود)-نشوء/"نشوؤوهم-ئيهم"-مجيء/"مجيئوهم-ئيهم"-"امرِئ"/"إمرئوهم-ئيهم"-تكافُؤ/"تكافؤوهم-ئيهم"-خطَأ/"خطؤوهم-ئيهم" 	
+# Cas Pm  قاضي/قاضيوهم-قاضييهم	
+	
+SFX	IC	Y	22	
+SFX	IC	0	و/nree	[^اىءأؤئي]
+SFX	IC	0	ي/nnnjee	[^اىءأؤئي]
+SFX	IC	ى	و/nree	ى
+SFX	IC	ى	ي/nnnjee	ى
+SFX	IC	ي	و/nree	ي
+SFX	IC	ي	ي/nnnjee	ي
+SFX	IC	ء	ؤو/nree	[ذدرز]ء
+SFX	IC	ء	ئي/nnnjee	[ذدرز]ء
+SFX	IC	ء	ؤو/nree	[^ذدرزاوي]ء
+SFX	IC	ء	ئي/nnnjee	[^ذدرزاوي]ء
+SFX	IC	ء	ؤو/nree	اء
+SFX	IC	ء	ئي/nnnjee	اء
+SFX	IC	ء	ؤو/nree	وء
+SFX	IC	ء	ئي/nnnjee	وء
+SFX	IC	ء	ئو/nree	يء
+SFX	IC	ء	ئي/nnnjee	يء
+SFX	IC	ئ	ئو/nree	ئ
+SFX	IC	ئ	ئي/nnnjee	ئ
+SFX	IC	ؤ	ؤو/nree	ؤ
+SFX	IC	ؤ	ئي/nnnjee	ؤ
+SFX	IC	أ	ؤو/nree	أ
+SFX	IC	أ	ئي/nnnjee	أ
+	
+# Mots  جمع مذكر سالم- نكرة/إضافة ضمير  غير عاقل	
+# Cas Pm  معلم/معلموه-يه-مبتغى/"مبتغوه-يه"-جزء/"جزؤوه-ئيه"-دفء/"دفؤوه-ئيه"-نداء/"نداؤوه-ئيه" (ممدود)-نشوء/"نشوؤوه-ئيه"-مجيء/"مجيئوه-ئيه"-"امرِئ"/"إمرئوه-ئيه"-تكافُؤ/"تكافؤوه-ئيه"-خطَأ/"خطؤوه-ئيه" 	
+# Cas Pm  قاضي/قاضيوه-قاضييه	
+	
+SFX	ID	Y	22	
+SFX	ID	0	و/nrdd	[^اىءأؤئي]
+SFX	ID	0	ي/nnnjdd	[^اىءأؤئي]
+SFX	ID	ى	و/nrdd	ى
+SFX	ID	ى	ي/nnnjdd	ى
+SFX	ID	ي	و/nrdd	ي
+SFX	ID	ي	ي/nnnjdd	ي
+SFX	ID	ء	ؤو/nrdd	[ذدرز]ء
+SFX	ID	ء	ئي/nnnjdd	[ذدرز]ء
+SFX	ID	ء	ؤو/nrdd	[^ذدرزاوي]ء
+SFX	ID	ء	ئي/nnnjdd	[^ذدرزاوي]ء
+SFX	ID	ء	ؤو/nrdd	اء
+SFX	ID	ء	ئي/nnnjdd	اء
+SFX	ID	ء	ؤو/nrdd	وء
+SFX	ID	ء	ئي/nnnjdd	وء
+SFX	ID	ء	ئو/nrdd	يء
+SFX	ID	ء	ئي/nnnjdd	يء
+SFX	ID	ئ	ئو/nrdd	ئ
+SFX	ID	ئ	ئي/nnnjdd	ئ
+SFX	ID	ؤ	ؤو/nrdd	ؤ
+SFX	ID	ؤ	ئي/nnnjdd	ؤ
+SFX	ID	أ	ؤو/nrdd	أ
+SFX	ID	أ	ئي/nnnjdd	أ
+	
+# Cas Pm   الإضافة اللفضية لجمع المذكر السالم (صفة)	
+# Cas Pm  دون اعتبار لإضافة ضمير متصل (حالة اسم الفاعل مرحليًأ)	
+	
+# Mots االإضافة اللفضية لجمع المذكر السالم (صفة)	
+	
+SFX	IE	Y	22	
+SFX	IE	0	و/mr	[^اىءأؤئي]
+SFX	IE	0	ي/mnmj	[^اىءأؤئي]
+SFX	IE	ى	و/mr	ى
+SFX	IE	ى	ي/mnmj	ى
+SFX	IE	ي	و/mr	ي
+SFX	IE	ي	ي/mnmj	ي
+SFX	IE	ء	ؤو/mr	[ذدرز]ء
+SFX	IE	ء	ئي/mnmj	[ذدرز]ء
+SFX	IE	ء	ؤو/mr	[^ذدرزاوي]ء
+SFX	IE	ء	ئي/mnmj	[^ذدرزاوي]ء
+SFX	IE	ء	ؤو/mr	اء
+SFX	IE	ء	ئي/mnmj	اء
+SFX	IE	ء	ؤو/mr	وء
+SFX	IE	ء	ئي/mnmj	وء
+SFX	IE	ء	ئو/mr	يء
+SFX	IE	ء	ئي/mnmj	يء
+SFX	IE	ئ	ئو/mr	ئ
+SFX	IE	ئ	ئي/mnmj	ئ
+SFX	IE	ؤ	ؤو/mr	ؤ
+SFX	IE	ؤ	ئي/mnmj	ؤ
+SFX	IE	أ	ؤو/mr	أ
+SFX	IE	أ	ئي/mnmj	أ
+	
+	
+# Cas exceptionnel PmF   كثيف/كثيفو-كثيفو (لايجوز كثيفون لأنه لغير العاقل)	
+	
+SFX	IF	Y	22	
+SFX	IF	0	و/nr	[^اىءأؤئي]
+SFX	IF	0	ي/nnnj	[^اىءأؤئي]
+SFX	IF	ى	و/nr	ى
+SFX	IF	ى	ي/nnnj	ى
+SFX	IF	ي	و/nr	ي
+SFX	IF	ي	ي/nnnj	ي
+SFX	IF	ء	ؤو/nr	[ذدرز]ء
+SFX	IF	ء	ئي/nnnj	[ذدرز]ء
+SFX	IF	ء	ؤو/nr	[^ذدرزاوي]ء
+SFX	IF	ء	ئي/nnnj	[^ذدرزاوي]ء
+SFX	IF	ء	ؤو/nr	اء
+SFX	IF	ء	ئي/nnnj	اء
+SFX	IF	ء	ؤو/nr	وء
+SFX	IF	ء	ئي/nnnj	وء
+SFX	IF	ء	ئو/nr	يء
+SFX	IF	ء	ئي/nnnj	يء
+SFX	IF	ئ	ئو/nr	ئ
+SFX	IF	ئ	ئي/nnnj	ئ
+SFX	IF	ؤ	ؤو/nr	ؤ
+SFX	IF	ؤ	ئي/nnnj	ؤ
+SFX	IF	أ	ؤو/nr	أ
+SFX	IF	أ	ئي/nnnj	أ
+	
+# Cas exceptionnel PmG  بني/بنيو-بنيو (لايجوز بنيون لأنه لغير العاقل)	
+	
+SFX	IG	Y	3	
+SFX	IG	0	0/nrnnnj	[^ي]
+SFX	IG	0	و/nr	ي
+SFX	IG	0	ي/nnnj	ي
+	
+# Mots تنوين النصب 	
+# Cas Tn  تصريف/تصريفا-تصريفًا-تصريفاً-مدرسة/مدرسة-هدى/هدى-هدًى-هدىً-رضا/رضا-رضًا-رضاً-جزء/جزءا-جزءًا-جزءاً-دفء/دفئا-دفئًا-دفئاً- نداء(الممدود)/نداء-نداءً-نشوء/نشوءا-نشوءًا-نشوءاً-مجيئ/مجيئا-مجيئًا-مجيئاً-امرِئ/امرِئا-امرِئًا-امرِئاً-تكافُؤ/كافُؤا-تكافُؤا-تكافُؤا-خطأ/خطأ-خطأً	
+	
+SFX	JA	Y	33	
+SFX	JA	0	ا/nn	[^ةاىءأؤئ]
+SFX	JA	0	ًا/nn	[^ةاىءأؤئ]
+SFX	JA	0	اً/nn	[^ةاىءأؤئ]
+SFX	JA	ة	ة/nn	ة
+SFX	JA	ة	ةً/nn	ة
+SFX	JA	ى	ى/nn	ى
+SFX	JA	ى	ًى/nn	ى
+SFX	JA	ى	ىً/nn	ى
+SFX	JA	ا	ا/nn	ا
+SFX	JA	ا	ًا/nn	ا
+SFX	JA	ا	اً/nn	ا
+SFX	JA	ء	ءا/nn	[ذدرز]ء
+SFX	JA	ء	ءًا/nn	[ذدرز]ء
+SFX	JA	ء	ءاً/nn	[ذدرز]ء
+SFX	JA	ء	ئا/nn	[^ذدرزاوي]ء
+SFX	JA	ء	ئًا/nn	[^ذدرزاوي]ء
+SFX	JA	ء	ئاً/nn	[^ذدرزاوي]ء
+SFX	JA	ء	ء/nn	اء
+SFX	JA	ء	ءً/nn	اء
+SFX	JA	ء	ءا/nn	وء
+SFX	JA	ء	ءًا/nn	وء
+SFX	JA	ء	ءاً/nn	وء
+SFX	JA	ء	ئا/nn	يء
+SFX	JA	ء	ئًا/nn	يء
+SFX	JA	ء	ئاً/nn	يء
+SFX	JA	ئ	ئا/nn	ئ
+SFX	JA	ئ	ئًا/nn	ئ
+SFX	JA	ئ	ئاً/nn	ئ
+SFX	JA	ؤ	ؤا/nn	ؤ
+SFX	JA	ؤ	ؤًا/nn	ؤ
+SFX	JA	ؤ	ؤاً/nn	ؤ
+SFX	JA	أ	أ/nn	أ
+SFX	JA	أ	أً/nn	أ
+	
+# Mots تنوين االكسر  مع حذف ياء المنقوص	
+# Cas Tk  قاضي/قاضٍ	
+	
+SFX	KA	Y	8	
+SFX	KA	ي	ٍ/nrnj	[^ئ]ي
+SFX	KA	ي	0/nrnj	[^ئ]ي
+SFX	KA	ائي	اء/nrnj	ائي
+SFX	KA	ائي	اءٍ/nrnj	ائي
+SFX	KA	ئي	أٍّ/nrnj	[^ا]ئي
+SFX	KA	ئي	أ/nrnj	[^ا]ئي
+SFX	KA	ئي	إٍّ/nrnj	[^ا]ئي
+SFX	KA	ئي	إ/nrnj	[^ا]ئي
+
+	
+# Mots النسبة العادية   مفرد ومثنى المذكر والمؤنث  وجمع مؤ. س– معرف  ـ	
+# Cas R+R0+Rz  نسب عادي: عمل...عملي / حذف الالف: ملهى...ملهي / حذف الياء: مرتجي...مرتجي / نسب المهموز: كساء...كسائي	
+	
+SFX	LA	Y	91	
+SFX	LA	0	ي/mrmnmj	[^أؤيءةاى]
+SFX	LA	0	ية/mrmnmj	[^أؤيءةاى]
+SFX	LA	0	يان/mr	[^أؤيءةاى]
+SFX	LA	0	يين/mnmj	[^أؤيءةاى]
+SFX	LA	0	يتان/mr	[^أؤيءةاى]
+SFX	LA	0	يتين/mnmj	[^أؤيءةاى]
+SFX	LA	0	يات/mrmnmj	[^أؤيءةاى]
+SFX	LA	ة	ي/mrmnmj	[^أيءؤا]ة
+SFX	LA	ة	ية/mrmnmj	[^أيءؤا]ة
+SFX	LA	ة	يان/mr	[^أيءؤا]ة
+SFX	LA	ة	يين/mnmj	[^أيءؤا]ة
+SFX	LA	ة	يتان/mr	[^أيءؤا]ة
+SFX	LA	ة	يتين/mnmj	[^أيءؤا]ة
+SFX	LA	ة	يات/mrmnmj	[^أيءؤا]ة
+SFX	LA	ى	ي/mrmnmj	[^ي]ى
+SFX	LA	ى	ية/mrmnmj	[^ي]ى
+SFX	LA	ى	يان/mr	[^ي]ى
+SFX	LA	ى	يين/mnmj	[^ي]ى
+SFX	LA	ى	يتان/mr	[^ي]ى
+SFX	LA	ى	يتين/mnmj	[^ي]ى
+SFX	LA	ى	يات/mrmnmj	[^ي]ى
+SFX	LA	ا	ي/mrmnmj	[^ي]ا
+SFX	LA	ا	ية/mrmnmj	[^ي]ا
+SFX	LA	ا	يان/mr	[^ي]ا
+SFX	LA	ا	يين/mnmj	[^ي]ا
+SFX	LA	ا	يتان/mr	[^ي]ا
+SFX	LA	ا	يتين/mnmj	[^ي]ا
+SFX	LA	ا	يات/mrmnmj	[^ي]ا
+SFX	LA	اة	ي/mrmnmj	[^ي]اة
+SFX	LA	اة	ية/mrmnmj	[^ي]اة
+SFX	LA	اة	يان/mr	[^ي]اة
+SFX	LA	اة	يين/mnmj	[^ي]اة
+SFX	LA	اة	يتان/mr	[^ي]اة
+SFX	LA	اة	يتين/mnmj	[^ي]اة
+SFX	LA	اة	يات/mrmnmj	[^ي]اة
+SFX	LA	ي	ي/mrmnmj	ي
+SFX	LA	ي	ية/mrmnmj	ي
+SFX	LA	ي	يان/mr	ي
+SFX	LA	ي	يين/mnmj	ي
+SFX	LA	ي	يتان/mr	ي
+SFX	LA	ي	يتين/mnmj	ي
+SFX	LA	ي	يات/mrmnmj	ي
+SFX	LA	ية	ي/mrmnmj	ية
+SFX	LA	ية	ية/mrmnmj	ية
+SFX	LA	ية	يان/mr	ية
+SFX	LA	ية	يين/mnmj	ية
+SFX	LA	ية	يتان/mr	ية
+SFX	LA	ية	يتين/mnmj	ية
+SFX	LA	ية	يات/mrmnmj	ية
+SFX	LA	ء	ئي/mrmnmj	ء
+SFX	LA	ء	ئية/mrmnmj	ء
+SFX	LA	ء	ئيان/mr	ء
+SFX	LA	ء	ئيين/mnmj	ء
+SFX	LA	ء	ئيتان/mr	ء
+SFX	LA	ء	ئيتين/mnmj	ء
+SFX	LA	ء	ئيات/mrmnmj	ء
+SFX	LA	أ	ئي/mrmnmj	أ
+SFX	LA	أ	ئية/mrmnmj	أ
+SFX	LA	أ	ئيان/mr	أ
+SFX	LA	أ	ئيين/mnmj	أ
+SFX	LA	أ	ئيتان/mr	أ
+SFX	LA	أ	ئيتين/mnmj	أ
+SFX	LA	أ	ئيات/mrmnmj	أ
+SFX	LA	ؤ	ئي/mrmnmj	ؤ
+SFX	LA	ؤ	ئية/mrmnmj	ؤ
+SFX	LA	ؤ	ئيان/mr	ؤ
+SFX	LA	ؤ	ئيين/mnmj	ؤ
+SFX	LA	ؤ	ئيتان/mr	ؤ
+SFX	LA	ؤ	ئيتين/mnmj	ؤ
+SFX	LA	ؤ	ئيات/mrmnmj	ؤ
+SFX	LA	ءة	ئي/mrmnmj	ءة
+SFX	LA	ءة	ئية/mrmnmj	ءة
+SFX	LA	ءة	ئيان/mr	ءة
+SFX	LA	ءة	ئيين/mnmj	ءة
+SFX	LA	ءة	ئيتان/mr	ءة
+SFX	LA	ءة	ئيتين/mnmj	ءة
+SFX	LA	ءة	ئيات/mrmnmj	ءة
+SFX	LA	أة	ئي/mrmnmj	أة
+SFX	LA	أة	ئية/mrmnmj	أة
+SFX	LA	أة	ئيان/mr	أة
+SFX	LA	أة	ئيين/mnmj	أة
+SFX	LA	أة	ئيتان/mr	أة
+SFX	LA	أة	ئيتين/mnmj	أة
+SFX	LA	أة	ئيات/mrmnmj	أة
+SFX	LA	ؤة	ئي/mrmnmj	ؤة
+SFX	LA	ؤة	ئية/mrmnmj	ؤة
+SFX	LA	ؤة	ئيان/mr	ؤة
+SFX	LA	ؤة	ئيين/mnmj	ؤة
+SFX	LA	ؤة	ئيتان/mr	ؤة
+SFX	LA	ؤة	ئيتين/mnmj	ؤة
+SFX	LA	ؤة	ئيات/mrmnmj	ؤة
+	
+	
+# Mots النسبة العادية   مفرد ومثنى المذكر والمؤنث   وجمع مؤ. س–  نكرة/إضافة منفصلة  ـ	
+# Cas R+R0+Rz  نسب عادي: عمل...عملي / حذف الالف: ملهى...ملهي / حذف الياء: مرتجي...مرتجي / نسب المهموز: كساء...كسائي	
+	
+SFX	LB	Y	195	
+SFX	LB	0	ي/nrnnnj	[^أؤيءةاى]
+SFX	LB	0	ية/nrnnnj	[^أؤيءةاى]
+SFX	LB	0	يةً/nn	[^أؤيءةاى]
+SFX	LB	0	يان/nr	[^أؤيءةاى]
+SFX	LB	0	يا/nr	[^أؤيءةاى]
+SFX	LB	0	يين/nnnj	[^أؤيءةاى]
+SFX	LB	0	يي/nnnj	[^أؤيءةاى]
+SFX	LB	0	يتان/nr	[^أؤيءةاى]
+SFX	LB	0	يتا/nr	[^أؤيءةاى]
+SFX	LB	0	يتين/nnnj	[^أؤيءةاى]
+SFX	LB	0	يتي/nnnj	[^أؤيءةاى]
+SFX	LB	0	يات/nrnnnj	[^أؤيءةاى]
+SFX	LB	0	يا/nn	[^أؤيءةاى]
+SFX	LB	0	ياً/nn	[^أؤيءةاى]
+SFX	LB	0	يًا/nn	[^أؤيءةاى]
+SFX	LB	ة	ي/nrnnnj	[^أيءؤا]ة
+SFX	LB	ة	ية/nrnnnj	[^أيءؤا]ة
+SFX	LB	ة	يةً/nn	[^أيءؤا]ة
+SFX	LB	ة	يان/nr	[^أيءؤا]ة
+SFX	LB	ة	يا/nr	[^أيءؤا]ة
+SFX	LB	ة	يين/nnnj	[^أيءؤا]ة
+SFX	LB	ة	يي/nnnj	[^أيءؤا]ة
+SFX	LB	ة	يتان/nr	[^أيءؤا]ة
+SFX	LB	ة	يتا/nr	[^أيءؤا]ة
+SFX	LB	ة	يتين/nnnj	[^أيءؤا]ة
+SFX	LB	ة	يتي/nnnj	[^أيءؤا]ة
+SFX	LB	ة	يات/nrnnnj	[^أيءؤا]ة
+SFX	LB	ة	يا/nn	[^أيءؤا]ة
+SFX	LB	ة	ياً/nn	[^أيءؤا]ة
+SFX	LB	ة	يًا/nn	[^أيءؤا]ة
+SFX	LB	ى	ي/nrnnnj	[^ي]ى
+SFX	LB	ى	ية/nrnnnj	[^ي]ى
+SFX	LB	ى	يةً/nn	[^ي]ى
+SFX	LB	ى	يان/nr	[^ي]ى
+SFX	LB	ى	يا/nr	[^ي]ى
+SFX	LB	ى	يين/nnnj	[^ي]ى
+SFX	LB	ى	يي/nnnj	[^ي]ى
+SFX	LB	ى	يتان/nr	[^ي]ى
+SFX	LB	ى	يتا/nr	[^ي]ى
+SFX	LB	ى	يتين/nnnj	[^ي]ى
+SFX	LB	ى	يتي/nnnj	[^ي]ى
+SFX	LB	ى	يات/nrnnnj	[^ي]ى
+SFX	LB	ى	يا/nn	[^ي]ى
+SFX	LB	ى	ياً/nn	[^ي]ى
+SFX	LB	ى	يًا/nn	[^ي]ى
+SFX	LB	ا	ي/nrnnnj	[^ي]ا
+SFX	LB	ا	ية/nrnnnj	[^ي]ا
+SFX	LB	ا	يةً/nn	[^ي]ا
+SFX	LB	ا	يان/nr	[^ي]ا
+SFX	LB	ا	يا/nr	[^ي]ا
+SFX	LB	ا	يين/nnnj	[^ي]ا
+SFX	LB	ا	يي/nnnj	[^ي]ا
+SFX	LB	ا	يتان/nr	[^ي]ا
+SFX	LB	ا	يتا/nr	[^ي]ا
+SFX	LB	ا	يتين/nnnj	[^ي]ا
+SFX	LB	ا	يتي/nnnj	[^ي]ا
+SFX	LB	ا	يات/nrnnnj	[^ي]ا
+SFX	LB	ا	يا/nn	[^ي]ا
+SFX	LB	ا	ياً/nn	[^ي]ا
+SFX	LB	ا	يًا/nn	[^ي]ا
+SFX	LB	اة	ي/nrnnnj	[^ي]اة
+SFX	LB	اة	ية/nrnnnj	[^ي]اة
+SFX	LB	اة	يةً/nn	[^ي]اة
+SFX	LB	اة	يان/nr	[^ي]اة
+SFX	LB	اة	يا/nr	[^ي]اة
+SFX	LB	اة	يين/nnnj	[^ي]اة
+SFX	LB	اة	يي/nnnj	[^ي]اة
+SFX	LB	اة	يتان/nr	[^ي]اة
+SFX	LB	اة	يتا/nr	[^ي]اة
+SFX	LB	اة	يتين/nnnj	[^ي]اة
+SFX	LB	اة	يتي/nnnj	[^ي]اة
+SFX	LB	اة	يات/nrnnnj	[^ي]اة
+SFX	LB	اة	يا/nn	[^ي]اة
+SFX	LB	اة	ياً/nn	[^ي]اة
+SFX	LB	اة	يًا/nn	[^ي]اة
+SFX	LB	ي	ي/nrnnnj	ي
+SFX	LB	ي	ية/nrnnnj	ي
+SFX	LB	ي	يةً/nn	ي
+SFX	LB	ي	يان/nr	ي
+SFX	LB	ي	يا/nr	ي
+SFX	LB	ي	يين/nnnj	ي
+SFX	LB	ي	يي/nnnj	ي
+SFX	LB	ي	يتان/nr	ي
+SFX	LB	ي	يتا/nr	ي
+SFX	LB	ي	يتين/nnnj	ي
+SFX	LB	ي	يتي/nnnj	ي
+SFX	LB	ي	يات/nrnnnj	ي
+SFX	LB	ي	يا/nn	ي
+SFX	LB	ي	ياً/nn	ي
+SFX	LB	ي	يًا/nn	ي
+SFX	LB	ية	ي/nrnnnj	ية
+SFX	LB	ية	ية/nrnnnj	ية
+SFX	LB	ية	يةً/nn	ية
+SFX	LB	ية	يان/nr	ية
+SFX	LB	ية	يا/nr	ية
+SFX	LB	ية	يين/nnnj	ية
+SFX	LB	ية	يي/nnnj	ية
+SFX	LB	ية	يتان/nr	ية
+SFX	LB	ية	يتا/nr	ية
+SFX	LB	ية	يتين/nnnj	ية
+SFX	LB	ية	يتي/nnnj	ية
+SFX	LB	ية	يات/nrnnnj	ية
+SFX	LB	ية	يا/nn	ية
+SFX	LB	ية	ياً/nn	ية
+SFX	LB	ية	يًا/nn	ية
+SFX	LB	ء	ئي/nrnnnj	ء
+SFX	LB	ء	ئية/nrnnnj	ء
+SFX	LB	ء	ئيةً/nn	ء
+SFX	LB	ء	ئيان/nr	ء
+SFX	LB	ء	ئيا/nr	ء
+SFX	LB	ء	ئيين/nnnj	ء
+SFX	LB	ء	ئيي/nnnj	ء
+SFX	LB	ء	ئيتان/nr	ء
+SFX	LB	ء	ئيتا/nr	ء
+SFX	LB	ء	ئيتين/nnnj	ء
+SFX	LB	ء	ئيتي/nnnj	ء
+SFX	LB	ء	ئيات/nrnnnj	ء
+SFX	LB	ء	ئيا/nn	ء
+SFX	LB	ء	ئياً/nn	ء
+SFX	LB	ء	ئيًا/nn	ء
+SFX	LB	أ	ئي/nrnnnj	أ
+SFX	LB	أ	ئية/nrnnnj	أ
+SFX	LB	أ	ئيةً/nn	أ
+SFX	LB	أ	ئيان/nr	أ
+SFX	LB	أ	ئيا/nr	أ
+SFX	LB	أ	ئيين/nnnj	أ
+SFX	LB	أ	ئيي/nnnj	أ
+SFX	LB	أ	ئيتان/nr	أ
+SFX	LB	أ	ئيتا/nr	أ
+SFX	LB	أ	ئيتين/nnnj	أ
+SFX	LB	أ	ئيتي/nnnj	أ
+SFX	LB	أ	ئيات/nrnnnj	أ
+SFX	LB	أ	ئيا/nn	أ
+SFX	LB	أ	ئياً/nn	أ
+SFX	LB	أ	ئيًا/nn	أ
+SFX	LB	ؤ	ئي/nrnnnj	ؤ
+SFX	LB	ؤ	ئية/nrnnnj	ؤ
+SFX	LB	ؤ	ئيةً/nn	ؤ
+SFX	LB	ؤ	ئيان/nr	ؤ
+SFX	LB	ؤ	ئيا/nr	ؤ
+SFX	LB	ؤ	ئيين/nnnj	ؤ
+SFX	LB	ؤ	ئيي/nnnj	ؤ
+SFX	LB	ؤ	ئيتان/nr	ؤ
+SFX	LB	ؤ	ئيتا/nr	ؤ
+SFX	LB	ؤ	ئيتين/nnnj	ؤ
+SFX	LB	ؤ	ئيتي/nnnj	ؤ
+SFX	LB	ؤ	ئيات/nrnnnj	ؤ
+SFX	LB	ؤ	ئيا/nn	ؤ
+SFX	LB	ؤ	ئياً/nn	ؤ
+SFX	LB	ؤ	ئيًا/nn	ؤ
+SFX	LB	ءة	ئي/nrnnnj	ءة
+SFX	LB	ءة	ئية/nrnnnj	ءة
+SFX	LB	ءة	ئيةً/nn	ءة
+SFX	LB	ءة	ئيان/nr	ءة
+SFX	LB	ءة	ئيا/nr	ءة
+SFX	LB	ءة	ئيين/nnnj	ءة
+SFX	LB	ءة	ئيي/nnnj	ءة
+SFX	LB	ءة	ئيتان/nr	ءة
+SFX	LB	ءة	ئيتا/nr	ءة
+SFX	LB	ءة	ئيتين/nnnj	ءة
+SFX	LB	ءة	ئيتي/nnnj	ءة
+SFX	LB	ءة	ئيات/nrnnnj	ءة
+SFX	LB	ءة	ئيا/nn	ءة
+SFX	LB	ءة	ئياً/nn	ءة
+SFX	LB	ءة	ئيًا/nn	ءة
+SFX	LB	أة	ئي/nrnnnj	أة
+SFX	LB	أة	ئية/nrnnnj	أة
+SFX	LB	أة	ئيةً/nn	أة
+SFX	LB	أة	ئيان/nr	أة
+SFX	LB	أة	ئيا/nr	أة
+SFX	LB	أة	ئيين/nnnj	أة
+SFX	LB	أة	ئيي/nnnj	أة
+SFX	LB	أة	ئيتان/nr	أة
+SFX	LB	أة	ئيتا/nr	أة
+SFX	LB	أة	ئيتين/nnnj	أة
+SFX	LB	أة	ئيتي/nnnj	أة
+SFX	LB	أة	ئيات/nrnnnj	أة
+SFX	LB	أة	ئيا/nn	أة
+SFX	LB	أة	ئياً/nn	أة
+SFX	LB	أة	ئيًا/nn	أة
+SFX	LB	ؤة	ئي/nrnnnj	ؤة
+SFX	LB	ؤة	ئية/nrnnnj	ؤة
+SFX	LB	ؤة	ئيةً/nn	ؤة
+SFX	LB	ؤة	ئيان/nr	ؤة
+SFX	LB	ؤة	ئيا/nr	ؤة
+SFX	LB	ؤة	ئيين/nnnj	ؤة
+SFX	LB	ؤة	ئيي/nnnj	ؤة
+SFX	LB	ؤة	ئيتان/nr	ؤة
+SFX	LB	ؤة	ئيتا/nr	ؤة
+SFX	LB	ؤة	ئيتين/nnnj	ؤة
+SFX	LB	ؤة	ئيتي/nnnj	ؤة
+SFX	LB	ؤة	ئيات/nrnnnj	ؤة
+SFX	LB	ؤة	ئيا/nn	ؤة
+SFX	LB	ؤة	ئياً/nn	ؤة
+SFX	LB	ؤة	ئيًا/nn	ؤة
+
+	
+# Mots النسبة العادية  مفرد ومثنى المذكر والمؤنث   وجمع مؤ. س– نكرة/إضافة ضمير (عاقل)  ـ	
+# Cas R+R0+Rz  نسب عادي: عمل...عملي / حذف الالف: ملهى...ملهي / حذف الياء: مرتجي...مرتجي / نسب المهموز: كساء...كسائي	
+# Si caractère nominal du relatif عند تحول النسبة إلى الإسمية	
+	
+SFX	LC	Y	91	
+SFX	LC	0	ي/nrnnnjccdd	[^أؤيءةاى]
+SFX	LC	0	يته/nrnnnjaabb	[^أؤيءةاى]
+SFX	LC	0	يا/nrccdd	[^أؤيءةاى]
+SFX	LC	0	يي/nnnjccdd	[^أؤيءةاى]
+SFX	LC	0	يتا/nrccdd	[^أؤيءةاى]
+SFX	LC	0	يتي/nnnjccdd	[^أؤيءةاى]
+SFX	LC	0	يات/nrnnnjccdd	[^أؤيءةاى]
+SFX	LC	ة	ي/nrnnnjccdd	[^أيءؤا]ة
+SFX	LC	ة	يته/nrnnnjaabb	[^أيءؤا]ة
+SFX	LC	ة	يا/nrccdd	[^أيءؤا]ة
+SFX	LC	ة	يي/nnnjccdd	[^أيءؤا]ة
+SFX	LC	ة	يتا/nrccdd	[^أيءؤا]ة
+SFX	LC	ة	يتي/nnnjccdd	[^أيءؤا]ة
+SFX	LC	ة	يات/nrnnnjccdd	[^أيءؤا]ة
+SFX	LC	ى	ي/nrnnnjccdd	ى
+SFX	LC	ى	يته/nrnnnjaabb	ى
+SFX	LC	ى	يا/nrccdd	ى
+SFX	LC	ى	يي/nnnjccdd	ى
+SFX	LC	ى	يتا/nrccdd	ى
+SFX	LC	ى	يتي/nnnjccdd	ى
+SFX	LC	ى	يات/nrnnnjccdd	ى
+SFX	LC	ا	ي/nrnnnjccdd	ا
+SFX	LC	ا	يته/nrnnnjaabb	ا
+SFX	LC	ا	يا/nrccdd	ا
+SFX	LC	ا	يي/nnnjccdd	ا
+SFX	LC	ا	يتا/nrccdd	ا
+SFX	LC	ا	يتي/nnnjccdd	ا
+SFX	LC	ا	يات/nrnnnjccdd	ا
+SFX	LC	اة	ي/nrnnnjccdd	اة
+SFX	LC	اة	يته/nrnnnjaabb	اة
+SFX	LC	اة	يا/nrccdd	اة
+SFX	LC	اة	يي/nnnjccdd	اة
+SFX	LC	اة	يتا/nrccdd	اة
+SFX	LC	اة	يتي/nnnjccdd	اة
+SFX	LC	اة	يات/nrnnnjccdd	اة
+SFX	LC	ي	ي/nrnnnjccdd	ي
+SFX	LC	ي	يته/nrnnnjaabb	ي
+SFX	LC	ي	يا/nrccdd	ي
+SFX	LC	ي	يي/nnnjccdd	ي
+SFX	LC	ي	يتا/nrccdd	ي
+SFX	LC	ي	يتي/nnnjccdd	ي
+SFX	LC	ي	يات/nrnnnjccdd	ي
+SFX	LC	ية	ي/nrnnnjccdd	ية
+SFX	LC	ية	يته/nrnnnjaabb	ية
+SFX	LC	ية	يا/nrccdd	ية
+SFX	LC	ية	يي/nnnjccdd	ية
+SFX	LC	ية	يتا/nrccdd	ية
+SFX	LC	ية	يتي/nnnjccdd	ية
+SFX	LC	ية	يات/nrnnnjccdd	ية
+SFX	LC	ء	ئي/nrnnnjccdd	ء
+SFX	LC	ء	ئيته/nrnnnjaabb	ء
+SFX	LC	ء	ئيا/nrccdd	ء
+SFX	LC	ء	ئيي/nnnjccdd	ء
+SFX	LC	ء	ئيتا/nrccdd	ء
+SFX	LC	ء	ئيتي/nnnjccdd	ء
+SFX	LC	ء	ئيات/nrnnnjccdd	ء
+SFX	LC	أ	ئي/nrnnnjccdd	أ
+SFX	LC	أ	ئيته/nrnnnjaabb	أ
+SFX	LC	أ	ئيا/nrccdd	أ
+SFX	LC	أ	ئيي/nnnjccdd	أ
+SFX	LC	أ	ئيتا/nrccdd	أ
+SFX	LC	أ	ئيتي/nnnjccdd	أ
+SFX	LC	أ	ئيات/nrnnnjccdd	أ
+SFX	LC	ؤ	ئي/nrnnnjccdd	ؤ
+SFX	LC	ؤ	ئيته/nrnnnjaabb	ؤ
+SFX	LC	ؤ	ئيا/nrccdd	ؤ
+SFX	LC	ؤ	ئيي/nnnjccdd	ؤ
+SFX	LC	ؤ	ئيتا/nrccdd	ؤ
+SFX	LC	ؤ	ئيتي/nnnjccdd	ؤ
+SFX	LC	ؤ	ئيات/nrnnnjccdd	ؤ
+SFX	LC	ءة	ئي/nrnnnjccdd	ءة
+SFX	LC	ءة	ئيته/nrnnnjaabb	ءة
+SFX	LC	ءة	ئيا/nrccdd	ءة
+SFX	LC	ءة	ئيي/nnnjccdd	ءة
+SFX	LC	ءة	ئيتا/nrccdd	ءة
+SFX	LC	ءة	ئيتي/nnnjccdd	ءة
+SFX	LC	ءة	ئيات/nrnnnjccdd	ءة
+SFX	LC	أة	ئي/nrnnnjccdd	أة
+SFX	LC	أة	ئيته/nrnnnjaabb	أة
+SFX	LC	أة	ئيا/nrccdd	أة
+SFX	LC	أة	ئيي/nnnjccdd	أة
+SFX	LC	أة	ئيتا/nrccdd	أة
+SFX	LC	أة	ئيتي/nnnjccdd	أة
+SFX	LC	أة	ئيات/nrnnnjccdd	أة
+SFX	LC	ؤة	ئي/nrnnnjccdd	ؤة
+SFX	LC	ؤة	ئيته/nrnnnjaabb	ؤة
+SFX	LC	ؤة	ئيا/nrccdd	ؤة
+SFX	LC	ؤة	ئيي/nnnjccdd	ؤة
+SFX	LC	ؤة	ئيتا/nrccdd	ؤة
+SFX	LC	ؤة	ئيتي/nnnjccdd	ؤة
+SFX	LC	ؤة	ئيات/nrnnnjccdd	ؤة
+	
+# Mots النسبة الواوية   مفرد ومثنى المذكر والمؤنث   وجمع مؤ. س– معرف  ـ	
+# Cas Rw تحويل الألف: عصى...عصوي، تحويل الهمزة: سمراء...سمراوي، تحويل الياء: صدي...صدوي	
+	
+SFX	MA	Y	42	
+SFX	MA	0	ي/mrmnmj	[^يءةاى]
+SFX	MA	0	ية/mrmnmj	[^يءةاى]
+SFX	MA	0	يان/mr	[^يءةاى]
+SFX	MA	0	يين/mnmj	[^يءةاى]
+SFX	MA	0	يتان/mr	[^يءةاى]
+SFX	MA	0	يتين/mnmj	[^يءةاى]
+SFX	MA	0	يات/mrmnmj	[^يءةاى]
+SFX	MA	ى	وي/mrmnmj	ى
+SFX	MA	ى	وية/mrmnmj	ى
+SFX	MA	ى	ويان/mr	ى
+SFX	MA	ى	ويين/mnmj	ى
+SFX	MA	ى	ويتان/mr	ى
+SFX	MA	ى	ويتين/mnmj	ى
+SFX	MA	ى	ويات/mrmnmj	ى
+SFX	MA	ا	وي/mrmnmj	ا
+SFX	MA	ا	وية/mrmnmj	ا
+SFX	MA	ا	ويان/mr	ا
+SFX	MA	ا	ويين/mnmj	ا
+SFX	MA	ا	ويتان/mr	ا
+SFX	MA	ا	ويتين/mnmj	ا
+SFX	MA	ا	ويات/mrmnmj	ا
+SFX	MA	اة	وي/mrmnmj	اة
+SFX	MA	اة	وية/mrmnmj	اة
+SFX	MA	اة	ويان/mr	اة
+SFX	MA	اة	ويين/mnmj	اة
+SFX	MA	اة	ويتان/mr	اة
+SFX	MA	اة	ويتين/mnmj	اة
+SFX	MA	اة	ويات/mrmnmj	اة
+SFX	MA	ء	وي/mrmnmj	اء
+SFX	MA	ء	وية/mrmnmj	اء
+SFX	MA	ء	ويان/mr	اء
+SFX	MA	ء	ويين/mnmj	اء
+SFX	MA	ء	ويتان/mr	اء
+SFX	MA	ء	ويتين/mnmj	اء
+SFX	MA	ء	ويات/mrmnmj	اء
+SFX	MA	ي	وي/mrmnmj	ي
+SFX	MA	ي	وية/mrmnmj	ي
+SFX	MA	ي	ويان/mr	ي
+SFX	MA	ي	ويين/mnmj	ي
+SFX	MA	ي	ويتان/mr	ي
+SFX	MA	ي	ويتين/mnmj	ي
+SFX	MA	ي	ويات/mrmnmj	ي
+	
+	
+# Mots النسبة الواوية مفرد ومثنى المذكر والمؤنث   وجمع مؤ. س– نكرة/إضافة منفصلة  ـ	
+# Cas Rw تحويل الألف: عصى...عصوي، تحويل الهمزة: سمراء...سمراوي، تحويل الياء: صدي...صدوي	
+	
+SFX	MB	Y	90	
+SFX	MB	0	ي/nrnnnj	[^يءةاى]
+SFX	MB	0	ية/nrnnnj	[^يءةاى]
+SFX	MB	0	يةً/nn	[^يءةاى]
+SFX	MB	0	يان/nr	[^يءةاى]
+SFX	MB	0	يا/nr	[^يءةاى]
+SFX	MB	0	يين/nnnj	[^يءةاى]
+SFX	MB	0	يي/nnnj	[^يءةاى]
+SFX	MB	0	يتان/nr	[^يءةاى]
+SFX	MB	0	يتا/nr	[^يءةاى]
+SFX	MB	0	يتين/nnnj	[^يءةاى]
+SFX	MB	0	يتي/nnnj	[^يءةاى]
+SFX	MB	0	يات/nrnnnj	[^يءةاى]
+SFX	MB	0	يا/nn	[^يءةاى]
+SFX	MB	0	ياً/nn	[^يءةاى]
+SFX	MB	0	يًا/nn	[^يءةاى]
+SFX	MB	ى	وي/nrnnnj	ى
+SFX	MB	ى	وية/nrnnnj	ى
+SFX	MB	ى	ويةً/nn	ى
+SFX	MB	ى	ويان/nr	ى
+SFX	MB	ى	ويا/nr	ى
+SFX	MB	ى	ويين/nnnj	ى
+SFX	MB	ى	ويي/nnnj	ى
+SFX	MB	ى	ويتان/nr	ى
+SFX	MB	ى	ويتا/nr	ى
+SFX	MB	ى	ويتين/nnnj	ى
+SFX	MB	ى	ويتي/nnnj	ى
+SFX	MB	ى	ويات/nrnnnj	ى
+SFX	MB	ى	ويا/nn	ى
+SFX	MB	ى	وياً/nn	ى
+SFX	MB	ى	ويًا/nn	ى
+SFX	MB	ا	وي/nrnnnj	ا
+SFX	MB	ا	وية/nrnnnj	ا
+SFX	MB	ا	ويةً/nn	ا
+SFX	MB	ا	ويان/nr	ا
+SFX	MB	ا	ويا/nr	ا
+SFX	MB	ا	ويين/nnnj	ا
+SFX	MB	ا	ويي/nnnj	ا
+SFX	MB	ا	ويتان/nr	ا
+SFX	MB	ا	ويتا/nr	ا
+SFX	MB	ا	ويتين/nnnj	ا
+SFX	MB	ا	ويتي/nnnj	ا
+SFX	MB	ا	ويات/nrnnnj	ا
+SFX	MB	ا	ويا/nn	ا
+SFX	MB	ا	وياً/nn	ا
+SFX	MB	ا	ويًا/nn	ا
+SFX	MB	اة	وي/nrnnnj	اة
+SFX	MB	اة	وية/nrnnnj	اة
+SFX	MB	اة	ويةً/nn	اة
+SFX	MB	اة	ويان/nr	اة
+SFX	MB	اة	ويا/nr	اة
+SFX	MB	اة	ويين/nnnj	اة
+SFX	MB	اة	ويي/nnnj	اة
+SFX	MB	اة	ويتان/nr	اة
+SFX	MB	اة	ويتا/nr	اة
+SFX	MB	اة	ويتين/nnnj	اة
+SFX	MB	اة	ويتي/nnnj	اة
+SFX	MB	اة	ويات/nrnnnj	اة
+SFX	MB	اة	ويا/nn	اة
+SFX	MB	اة	وياً/nn	اة
+SFX	MB	اة	ويًا/nn	اة
+SFX	MB	ء	وي/nrnnnj	اء
+SFX	MB	ء	وية/nrnnnj	اء
+SFX	MB	ء	ويةً/nn	اء
+SFX	MB	ء	ويان/nr	اء
+SFX	MB	ء	ويا/nr	اء
+SFX	MB	ء	ويين/nnnj	اء
+SFX	MB	ء	ويي/nnnj	اء
+SFX	MB	ء	ويتان/nr	اء
+SFX	MB	ء	ويتا/nr	اء
+SFX	MB	ء	ويتين/nnnj	اء
+SFX	MB	ء	ويتي/nnnj	اء
+SFX	MB	ء	ويات/nrnnnj	اء
+SFX	MB	ء	ويا/nn	اء
+SFX	MB	ء	وياً/nn	اء
+SFX	MB	ء	ويًا/nn	اء
+SFX	MB	ي	وي/nrnnnj	ي
+SFX	MB	ي	وية/nrnnnj	ي
+SFX	MB	ي	ويةً/nn	ي
+SFX	MB	ي	ويان/nr	ي
+SFX	MB	ي	ويا/nr	ي
+SFX	MB	ي	ويين/nnnj	ي
+SFX	MB	ي	ويي/nnnj	ي
+SFX	MB	ي	ويتان/nr	ي
+SFX	MB	ي	ويتا/nr	ي
+SFX	MB	ي	ويتين/nnnj	ي
+SFX	MB	ي	ويتي/nnnj	ي
+SFX	MB	ي	ويات/nrnnnj	ي
+SFX	MB	ي	ويا/nn	ي
+SFX	MB	ي	وياً/nn	ي
+SFX	MB	ي	ويًا/nn	ي
+
+	
+# Mots النسبة الواوية مفرد ومثنى المذكر والمؤنث وجمع مؤ. س– نكرة/إضافة ضمير  ـ	
+# Cas Rw تحويل الألف: عصى...عصوي، تحويل الهمزة: سمراء...سمراوي، تحويل الياء: صدي...صدوي	
+# Si caractère nominal du relatif عند تحول النسبة إلى الإسمية	
+	
+SFX	MC	Y	42	
+SFX	MC	0	ي/nrnnnjccdd	[^يءةاى]
+SFX	MC	0	يته/nrnnnjaabb	[^يءةاى]
+SFX	MC	0	يا/nrccdd	[^يءةاى]
+SFX	MC	0	يي/nnnjccdd	[^يءةاى]
+SFX	MC	0	يتا/nrccdd	[^يءةاى]
+SFX	MC	0	يتي/nnnjccdd	[^يءةاى]
+SFX	MC	0	يات/nrnnnjccdd	[^يءةاى]
+SFX	MC	ى	وي/nrnnnjccdd	ى
+SFX	MC	ى	ويته/nrnnnjaabb	ى
+SFX	MC	ى	ويا/nrccdd	ى
+SFX	MC	ى	ويي/nnnjccdd	ى
+SFX	MC	ى	ويتا/nrccdd	ى
+SFX	MC	ى	ويتي/nnnjccdd	ى
+SFX	MC	ى	ويات/nrnnnjccdd	ى
+SFX	MC	ا	وي/nrnnnjccdd	ا
+SFX	MC	ا	ويته/nrnnnjaabb	ا
+SFX	MC	ا	ويا/nrccdd	ا
+SFX	MC	ا	ويي/nnnjccdd	ا
+SFX	MC	ا	ويتا/nrccdd	ا
+SFX	MC	ا	ويتي/nnnjccdd	ا
+SFX	MC	ا	ويات/nrnnnjccdd	ا
+SFX	MC	اة	وي/nrnnnjccdd	اة
+SFX	MC	اة	ويته/nrnnnjaabb	اة
+SFX	MC	اة	ويا/nrccdd	اة
+SFX	MC	اة	ويي/nnnjccdd	اة
+SFX	MC	اة	ويتا/nrccdd	اة
+SFX	MC	اة	ويتي/nnnjccdd	اة
+SFX	MC	اة	ويات/nrnnnjccdd	اة
+SFX	MC	ء	وي/nrnnnjccdd	اء
+SFX	MC	ء	ويته/nrnnnjaabb	اء
+SFX	MC	ء	ويا/nrccdd	اء
+SFX	MC	ء	ويي/nnnjccdd	اء
+SFX	MC	ء	ويتا/nrccdd	اء
+SFX	MC	ء	ويتي/nnnjccdd	اء
+SFX	MC	ء	ويات/nrnnnjccdd	اء
+SFX	MC	ي	وي/nrnnnjccdd	ي
+SFX	MC	ي	ويته/nrnnnjaabb	ي
+SFX	MC	ي	ويا/nrccdd	ي
+SFX	MC	ي	ويي/nnnjccdd	ي
+SFX	MC	ي	ويتا/nrccdd	ي
+SFX	MC	ي	ويتي/nnnjccdd	ي
+SFX	MC	ي	ويات/nrnnnjccdd	ي
+	
+	
+# Spécial Rp/PmS  شبه ناقص والنسب، جمع مذكر سالم  - معرف	
+# Cas عملي...عمليون، غني...غنيون	
+	
+SFX	NA	Y	8	
+SFX	NA	ا	يون/mr	ا
+SFX	NA	ا	يين/mnmj	ا
+SFX	NA	ي	يون/mr	ي
+SFX	NA	ي	يين/mnmj	ي
+SFX	NA	ة	يون/mr	ة
+SFX	NA	ة	يين/mnmj	ة
+SFX	NA	0	يون/mr	[^اةي]
+SFX	NA	0	يين/mnmj	[^اةي]
+	
+# Spécial Rp/PmS  شبه ناقص والنسب،  جمع مذكر سالم  - نكرة/إضافة منفصلة	
+	
+SFX	NB	Y	16	
+SFX	NB	ا	يون/nr	ا
+SFX	NB	ا	يو/nr	ا
+SFX	NB	ا	يين/nnnj	ا
+SFX	NB	ا	يي/nnnj	ا
+SFX	NB	ي	يون/nr	ا
+SFX	NB	ي	يو/nr	ي
+SFX	NB	ي	يين/nnnj	ي
+SFX	NB	ي	يي/nnnj	ي
+SFX	NB	ة	يون/nr	ة
+SFX	NB	ة	يو/nr	ة
+SFX	NB	ة	يين/nnnj	ة
+SFX	NB	ة	يي/nnnj	ة
+SFX	NB	0	يون/nr	[^اةي]
+SFX	NB	0	يو/nr	[^اةي]
+SFX	NB	0	يين/nnnj	[^اةي]
+SFX	NB	0	يي/nnnj	[^اةي]
+	
+# Spécial Rp/PmS شبه ناقص والنسب،  جمع مذكر سالم- نكرة/إضافة ضمير عاقل	
+	
+SFX	NC	Y	8	
+SFX	NC	ا	يو/nree	ا
+SFX	NC	ا	يي/nnnjee	ا
+SFX	NC	ي	يو/nree	ي
+SFX	NC	ي	يي/nnnjee	ي
+SFX	NC	ة	يو/nree	ة
+SFX	NC	ة	يي/nnnjee	ة
+SFX	NC	0	يو/nree	[^اةي]
+SFX	NC	0	يي/nnnjee	[^اةي]
+	
+# Spécial Rp/PmS شبه ناقص والنسب،  جمع مذكر سالم- نكرة/إضافة ضمير  غير عاقل	
+	
+SFX	ND	Y	8	
+SFX	ND	ا	يو/nrdd	ا
+SFX	ND	ا	يي/nnnjdd	ا
+SFX	ND	ي	يو/nrdd	ي
+SFX	ND	ي	يي/nnnjdd	ي
+SFX	ND	ة	يو/nrdd	ة
+SFX	ND	ة	يي/nnnjdd	ة
+SFX	ND	0	يو/nrdd	[^اةي]
+SFX	ND	0	يي/nnnjdd	[^اةي]
+
+	
+	
+# Enclitiques ضمائر إضافة للإسم	
+	
+# Enclitiques ضمائر الإضافة، تلزم تغيرات في رسم أواخر الكلمة(ة، همزة)	
+# Conscient عاقل	
+	
+SFX	aa	Y	14	
+SFX	aa	ؤه	ئي	ؤه
+SFX	aa	أه	ئي	أه
+SFX	aa	ءه	ئي	ءه
+SFX	aa	ه	ي	[^ءؤأ]ه
+SFX	aa	ه	نا	ه
+SFX	aa	ه	ك	ه
+SFX	aa	ه	كما	ه
+SFX	aa	ه	كم	ه
+SFX	aa	ه	كن	ه
+SFX	aa	ه	هم	ه
+SFX	aa	ه	هن	ه
+SFX	aa	ه	ها	ه
+SFX	aa	ه	هما	ه
+SFX	aa	0	0	[^ه]
+
+	
+# Inconscient غير عاقل	
+	
+SFX	bb	Y	3	
+SFX	bb	ه	ها	ه
+SFX	bb	ه	هما	ه
+SFX	bb	0	0	[^ه]
+	
+# Enclitiques ضمائر الإضافة العادية	
+# Conscient عاقل	
+	
+SFX	cc	Y	11	
+SFX	cc	0	ي	.
+SFX	cc	0	نا	.
+SFX	cc	0	ك	.
+SFX	cc	0	كما	.
+SFX	cc	0	كم	.
+SFX	cc	0	كن	.
+SFX	cc	0	هم	.
+SFX	cc	0	هن	.
+SFX	cc	0	ه	.
+SFX	cc	0	ها	.
+SFX	cc	0	هما	.
+	
+# Spécial: Conscient إضافة ياء المتكلم لجمع المذكر السام، عاقل	
+# Cas صاحبو-ي/صاحبيّ- صاحبي-ي/صاحبيّ	
+	
+SFX	ee	Y	12	
+SFX	ee	و	ي	و
+SFX	ee	ي	ي	ي
+SFX	ee	0	نا	.
+SFX	ee	0	ك	.
+SFX	ee	0	كما	.
+SFX	ee	0	كم	.
+SFX	ee	0	كن	.
+SFX	ee	0	هم	.
+SFX	ee	0	هن	.
+SFX	ee	0	ه	.
+SFX	ee	0	ها	.
+SFX	ee	0	هما	.
+	
+# Inconscient غير عاقل	
+	
+SFX	dd	Y	3	
+SFX	dd	0	ه	.
+SFX	dd	0	ها	.
+SFX	dd	0	هما	.
+
+# Enclitiques ضمائر الإضافة للناقص بدون ياء المتكلم)	
+# Conscient عاقل	
+	
+SFX	ff	Y	10	
+SFX	ff	0	نا	.
+SFX	ff	0	ك	.
+SFX	ff	0	كما	.
+SFX	ff	0	كم	.
+SFX	ff	0	كن	.
+SFX	ff	0	هم	.
+SFX	ff	0	هن	.
+SFX	ff	0	ه	.
+SFX	ff	0	ها	.
+SFX	ff	0	هما	.
+	
+

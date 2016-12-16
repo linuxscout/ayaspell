@@ -1,0 +1,72 @@
+
+# Tools prerfixes 	
+	
+PFX	Ta	Y	2	
+PFX	Ta	ا	آ	ا
+PFX	Ta	0	أ	[^ا]
+	
+PFX	Tb	Y	1	
+PFX	Tb	0	و	.
+	
+PFX	Tc	Y	1	
+PFX	Tc	0	ف	.
+	
+PFX	Td	Y	1	
+PFX	Td	0	ب	.
+	
+PFX	Te	Y	1	
+PFX	Te	0	ل	.
+	
+PFX	Tg	Y	1	
+PFX	Tg	0	ك	.
+	
+PFX	Th	Y	1	
+PFX	Th	0	أو	.
+	
+PFX	Ti	Y	1	
+PFX	Ti	0	أف	.
+	
+PFX	Tj	Y	1	
+PFX	Tj	0	أب	.
+	
+PFX	Tk	Y	1	
+PFX	Tk	0	أل	.
+	
+PFX	Tl	Y	1	
+PFX	Tl	0	أك	.
+	
+PFX	Tm	Y	1	
+PFX	Tm	0	وب	.
+	
+PFX	Tn	Y	1	
+PFX	Tn	0	ول	.
+	
+PFX	To	Y	1	
+PFX	To	0	وك	.
+	
+PFX	Tp	Y	1	
+PFX	Tp	0	فب	.
+	
+PFX	Tq	Y	1	
+PFX	Tq	0	فل	.
+	
+PFX	Tr	Y	1	
+PFX	Tr	0	فك	.
+	
+PFX	Ts	Y	1	
+PFX	Ts	0	أوب	.
+	
+PFX	Tt	Y	1	
+PFX	Tt	0	أول	.
+	
+PFX	Tu	Y	1	
+PFX	Tu	0	أوك	.
+	
+PFX	Tv	Y	1	
+PFX	Tv	0	أفب	.
+	
+PFX	Tx	Y	1	
+PFX	Tx	0	أفل	.
+	
+PFX	Ty	Y	1	
+PFX	Ty	0	أفك	.

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>ar@dictionaries.addons.mozilla.org</em:id>
+	<em:unpack>true</em:unpack>
+    <em:version>3.7.2016-12-16</em:version>
+	<em:type>2</em:type>
+
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>3.0</em:minVersion>
+				<em:maxVersion>36.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <em:targetApplication>
+      <Description>
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+	<em:minVersion>3.0</em:minVersion>
+	<em:maxVersion>36.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <em:name>Arabic spell-checking dictionary</em:name>
+    <em:creator>Mohamed Kebdani and Taha Zerrouki</em:creator>
+    <em:homepageURL>http://ayaspell.sourceforge.net/</em:homepageURL>
+  </Description>
+</RDF>

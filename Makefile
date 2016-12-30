@@ -2,7 +2,7 @@
 # Build Ayaspell dictionary files
 DATA :=dict/builddict
 RELEASES :=releases
-TMP :=tests/output
+TMP :=output
 SCRIPT :=tools
 VERSION:=3.7.2016-12-16
 DOC:="."
@@ -10,7 +10,7 @@ TEMPLATE:=templates
 default: all
 # Clean build files
 clean:
-	rm -f -r $(RELEASES)/*
+	rm -f -r $(RELEASES) $(TMP)
 backup: 
 	mkdir -p $(RELEASES)/backup$(VERSION)
 	#~ mv $(RELEASES)/*.zip $(RELEASES)/*.oxi $(RELEASES)/backup$(VERSION)
@@ -19,6 +19,7 @@ all: backup build zip libreoffice mozilla
 	#copy dic and aff files to zip package
 build:
 	#build the dictionary from partial dictionary
+	mkdir -p $(TMP)
 	cat $(DATA)/stopwords.dic $(DATA)/tools.dic $(DATA)/names.dic > $(TMP)/arb.tmp.dic
 	cat $(DATA)/Condidate3.4.dic $(DATA)/verb.huns.dic >> $(TMP)/arb.tmp.dic
 	#add lines count

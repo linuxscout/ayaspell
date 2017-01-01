@@ -4,7 +4,7 @@ DATA :=dict/builddict
 RELEASES :=releases
 TMP :=output
 SCRIPT :=tools
-VERSION:=3.7.2016-12-16
+VERSION:=3.7
 DOC:="."
 TEMPLATE:=templates
 default: all

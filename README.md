@@ -1,4 +1,4 @@
-#AyaSpell Arabic Dictionary for Spellchecking 
+# AyaSpell Arabic Dictionary for Spellchecking 
 AyaSpell Arabic Dictionary for Hunspell Spellchecker
 
 [![downloads]( https://img.shields.io/sourceforge/dt/ayaspell.svg)](http://sourceforge.org/projects/ayaspell)
@@ -20,7 +20,7 @@ Download  |[sourceforge](http://ayaspell.sourceforge.net)
 Feedbacks  |[Comments](https://github.com/linuxscout/ayaspell/)
 Accounts  |[@Twitter](https://twitter.com/linuxscout)  [@Sourceforge](http://sourceforge.net/projects/ayaspell/)
 
-#Description
+# Description
 Ayaspell project aims to provide Arabic dictionaries for free office applications like OpenOffice.org, Firefox, Thunderbird, abiword, gedit ...etc. This project is under GPL/LGPL/MPL tri-license. For the lexicon part of Ayaspell project, we are working to provide:
 
 - An Arabic spellchecker dictionary: hunspell-ar (doc:arabic/pdf). The hunspell-ar dictionary is based on Hunspell the spellchecker's OpenOffice.org project ;
@@ -30,7 +30,7 @@ Ayaspell project aims to provide Arabic dictionaries for free office application
 
 
 
-##Thanks for their encouragement and support.
+## Thanks for their encouragement and support.
 
 - [King Abdulaziz City For Science And Technology](http://www.kacst.edu.sa/eng/index.php") (Saudi Arabia)
 - [Cheikh Ali Jabir Al-ali Assalim Assabah](http://raihur.com/?page_id=2) (Kuwait)
@@ -58,7 +58,7 @@ Ayaspell project aims to provide Arabic dictionaries for free office application
 
 *   اسماعيل حجير، "[ من أجل مدقق إملائي عربي مفتوح المصدر](doc/Ismail_hadjir_these.pdf)"، مركز البحث العلمي وترقية اللغة العربية، الجزائر 2009، [ihadjir@](http://yahoo.fr/)
 
-##BUILD Dictionary in multiple format
+## BUILD Dictionary in multiple format
 
 The source files are data folder as text files in Hunspell format, then we can build dictionary in format as OpenOffice/LibreOffice and Mozilla Firefox/Thunderbird
 ```

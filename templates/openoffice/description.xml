@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
-    <version value="3.7.2016-12-16"/>
+    <version value="3.7"/>
     <identifier value="org.openoffice.ar.hunspell.dictionaries" />
     <display-name>
         <name lang="en">Arabic Spelling and Thesaurus (Ayaspell)</name>
